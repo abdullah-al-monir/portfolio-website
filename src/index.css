@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* background-image: url("bg.png"); */
+  /* background-color: #070813; */
+  background-color: #040615;
+}
+
+.titillium {
+  font-family: "Titillium Web", sans-serif;
+}
+
+.section {
+  font-size: larger;
+  padding: 10px;
+  margin: 10px;
+  color: #e9f3e8;
+  transition: color 0.3s ease;
+}
+.section:hover {
+  color: #88afdd;
+}
+.active-section {
+  border-radius: "10px";
+  transition: "all 0.5s";
+  background-color: "blue";
+  color: #88afdd;
+}
+
+.projectImage::-webkit-scrollbar {
+  display: none;
+}
+
+.projectImage {
+  -ms-overflow-style: none;
+}
+
+.projectImage {
+  scrollbar-width: none;
+}
