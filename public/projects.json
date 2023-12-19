@@ -1,0 +1,36 @@
+
+[
+  {
+    "name": "Automotive Oasis",
+    "title": "A car showroom website",
+    "image": "/automotive.png",
+    "tech": [
+      "/logos/html.png","/logos/css.png","/logos/tailwind.png","/logos/mongoDB.png","/logos/expressJs.png","/logos/reactJs.png","/logos/nodeJs.png","/logos/firebase.png"
+    ],
+    "live": "https://automotive-oasis.web.app",
+    "front": "https://github.com/abdullah-al-monir/online-car-shop-client",
+    "back": "https://github.com/abdullah-al-monir/online-car-shop-server"
+  },
+  {
+    "name": "NexGen Diagnosis",
+    "title": "A diagnostic center website",
+    "image": "/nexgen.png",
+    "tech": [
+      "/logos/html.png","/logos/css.png","/logos/materialUi.png","/logos/mongoDB.png","/logos/expressJs.png","/logos/reactJs.png","/logos/nodeJs.png","/logos/firebase.png"
+    ],
+    "live": "https://nexgen-diagnosia.web.app",
+    "front": "https://github.com/abdullah-al-monir/nexgen-diagnosia-client",
+    "back": "https://github.com/abdullah-al-monir/nexgen-diagnosia-server"
+  },
+  {
+    "name": "Work Atlas",
+    "title": "A job recruitment website",
+    "image": "/workAtlas.png",
+    "tech": [
+      "/logos/html.png","/logos/css.png","/logos/tailwind.png","/logos/mongoDB.png","/logos/expressJs.png","/logos/reactJs.png","/logos/nodeJs.png","/logos/firebase.png"
+    ],
+    "live": "https://work-atlas.web.app",
+    "front": "https://github.com/abdullah-al-monir/work-atlas-client",
+    "back": "https://github.com/abdullah-al-monir/work-atlas-server"
+  }
+]

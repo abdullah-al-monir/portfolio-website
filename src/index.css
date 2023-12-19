@@ -4,8 +4,6 @@
 @tailwind utilities;
 
 body {
-  /* background-image: url("bg.png"); */
-  /* background-color: #070813; */
   background-color: #040615;
 }
 
@@ -40,4 +38,21 @@ body {
 
 .projectImage {
   scrollbar-width: none;
+}
+
+.imageHoverScroll {
+  transition: transform 1s ease;
+}
+
+.imageHoverScroll:hover {
+  animation: scrollAnimation 15s linear infinite; 
+}
+
+@keyframes scrollAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
 }
