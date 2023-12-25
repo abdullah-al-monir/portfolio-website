@@ -1,5 +1,4 @@
 import Title from "../components/Title";
-import { Zoom } from "react-awesome-reveal";
 import { useEffect, useState } from "react";
 const Projects = () => {
   const [projects, setProjects] = useState();
@@ -13,10 +12,8 @@ const Projects = () => {
     <div className="container mx-auto px-5 md:px-20">
       <Title text={"Projects"} />
       <div className="grid  grid-cols-1 lg:grid-cols-3 gap-7">
-       
         {projects?.map((p) => (
-          <Zoom key={p.name}>
-          <div  className="h-full rounded-2xl">
+          <div data-aos="zoom-in" key={p.name} className="h-full rounded-2xl">
             <div className="h-[280px] overflow-y-scroll  projectImage rounded-t-2xl">
               <img className="imageHoverScroll" src={p.image} alt="" />
             </div>
@@ -25,49 +22,34 @@ const Projects = () => {
                 <h4 className="text-center text-2xl md:text-3xl text-[#2EDEF5] font-semibold">
                   {p.name}
                 </h4>
-                <p className="text-xl text-white mt-2">
-                  {p.title}
-                </p>
+                <p className="text-xl text-white mt-2">{p.title}</p>
                 <div className="flex gap-2 text-xl text-[#2EDEF5] font-semibold my-3 ">
                   <img
                     className="w-7"
                     src="https://media.giphy.com/media/Tv5xsOxaj4xP9sGos7/giphy.gif"
                     alt="right arrow gif"
                   />
-                  <a
-                    href={p.live}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a href={p.live} target="_blank" rel="noopener noreferrer">
                     Live Site
                   </a>
                   |
-                  <a
-                    href={p.front}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a href={p.front} target="_blank" rel="noopener noreferrer">
                     Front-End
                   </a>
                   |
-                  <a
-                    href={p.back}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a href={p.back} target="_blank" rel="noopener noreferrer">
                     Back-End
                   </a>
                 </div>
                 <h2 className="text-white text-xl mb-5">Technologies</h2>
                 <div className="flex gap-5 items-center flex-wrap">
-                  {
-                    p.tech.map((t,idx)=><img key={idx} className="h-7" src={t} alt="" />)
-                  }
+                  {p.tech.map((t, idx) => (
+                    <img key={idx} className="h-7" src={t} alt="" />
+                  ))}
                 </div>
               </div>
             </div>
           </div>
-          </Zoom>
         ))}
       </div>
     </div>

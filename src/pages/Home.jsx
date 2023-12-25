@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import About from "./About";
 import Contact from "./Contact";
 import Education from "./Education";
@@ -6,7 +6,12 @@ import Header from "./Header";
 import Projects from "./Projects";
 import Skills from "./Skills";
 import ScrollSpy from "react-ui-scrollspy";
+import Aos from "aos";
+import "aos/dist/aos.css";
 const Home = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   const parentScrollContainerRef = useRef(null);
   return (
     <div ref={parentScrollContainerRef}>

@@ -2,7 +2,13 @@ import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 import Home from "../pages/Home";
 import MouseParticles from "react-mouse-particles";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 const Layout = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   const onPress = (e) => {
     e.preventDefault();
     const target = window.document.getElementById(
