@@ -1,11 +1,17 @@
-
 [
   {
     "name": "Automotive Oasis",
     "title": "A car showroom website",
     "image": "/automotive.png",
     "tech": [
-      "/logos/html.png","/logos/css.png","/logos/tailwind.png","/logos/mongoDB.png","/logos/expressJs.png","/logos/reactJs.png","/logos/nodeJs.png","/logos/firebase.png"
+      "/logos/html.png",
+      "/logos/css.png",
+      "/logos/tailwind.png",
+      "/logos/mongoDB.png",
+      "/logos/expressJs.png",
+      "/logos/reactJs.png",
+      "/logos/nodeJs.png",
+      "/logos/firebase.png"
     ],
     "live": "https://automotive-oasis.web.app",
     "front": "https://github.com/abdullah-al-monir/online-car-shop-client",
@@ -16,7 +22,14 @@
     "title": "A diagnostic center website",
     "image": "/nexgen.png",
     "tech": [
-      "/logos/html.png","/logos/css.png","/logos/materialUi.png","/logos/mongoDB.png","/logos/expressJs.png","/logos/reactJs.png","/logos/nodeJs.png","/logos/firebase.png"
+      "/logos/html.png",
+      "/logos/css.png",
+      "/logos/materialUi.png",
+      "/logos/mongoDB.png",
+      "/logos/expressJs.png",
+      "/logos/reactJs.png",
+      "/logos/nodeJs.png",
+      "/logos/firebase.png"
     ],
     "live": "https://nexgen-diagnosia.web.app",
     "front": "https://github.com/abdullah-al-monir/nexgen-diagnosia-client",
@@ -27,10 +40,73 @@
     "title": "A job recruitment website",
     "image": "/workAtlas.png",
     "tech": [
-      "/logos/html.png","/logos/css.png","/logos/tailwind.png","/logos/mongoDB.png","/logos/expressJs.png","/logos/reactJs.png","/logos/nodeJs.png","/logos/firebase.png"
+      "/logos/html.png",
+      "/logos/css.png",
+      "/logos/tailwind.png",
+      "/logos/mongoDB.png",
+      "/logos/expressJs.png",
+      "/logos/reactJs.png",
+      "/logos/nodeJs.png",
+      "/logos/firebase.png"
     ],
     "live": "https://work-atlas.web.app",
     "front": "https://github.com/abdullah-al-monir/work-atlas-client",
     "back": "https://github.com/abdullah-al-monir/work-atlas-server"
+  },
+  {
+    "name": "SPORTACULAR360",
+    "title": "A sports events website",
+    "image": "/sportacular360.png",
+    "tech": [
+      "/logos/html.png",
+      "/logos/css.png",
+      "/logos/tailwind.png",
+      "/logos/reactJs.png",
+      "/logos/firebase.png"
+    ],
+    "live": "https://sportacular360.web.app",
+    "front": "https://github.com/abdullah-al-monir/sports-events-auth"
+  },
+  {
+    "name": "Winter Sale",
+    "title": "An online shop",
+    "image": "/wintersale.png",
+    "tech": [
+      "/logos/html.png",
+      "/logos/css.png",
+      "/logos/tailwind.png",
+      "/logos/es6.png",
+      "/logos/javascript.png"
+    ],
+    "live": "https://abdullah-al-monir.github.io/e-shop",
+    "front": "https://github.com/abdullah-al-monir/e-shop"
+  },
+  {
+    "name": "Text Editor Pro",
+    "title": "A text editing tool",
+    "image": "/textEditorPro.png",
+    "tech": [
+      "/logos/html.png",
+      "/logos/css.png",
+      "/logos/tailwind.png",
+      "/logos/es6.png",
+      "/logos/javascript.png"
+    ],
+    "live": "https://abdullah-al-monir.github.io/text-editor",
+    "front": "https://github.com/abdullah-al-monir/sports-events-auth"
+  },
+  {
+    "name": "BMI Calculator",
+    "title": "A bmi calculating tool",
+    "image": "/bmiCalculator.png",
+    "tech": [
+      "/logos/html.png",
+      "/logos/css.png",
+      "/logos/tailwind.png",
+      "/logos/es6.png",
+      "/logos/javascript.png"
+    ],
+    "live": "https://abdullah-al-monir.github.io/bmi-calculator",
+    "front": "https://github.com/abdullah-al-monir/bmi-calculator"
   }
 ]

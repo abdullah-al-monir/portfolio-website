@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Title from "../components/Title";
 import { useEffect, useState } from "react";
 const Projects = () => {
@@ -7,12 +8,11 @@ const Projects = () => {
       .then((res) => res.json())
       .then((data) => setProjects(data));
   }, []);
-  console.log(projects);
   return (
     <div className="container mx-auto px-5 md:px-20">
       <Title text={"Projects"} />
       <div className="grid  grid-cols-1 lg:grid-cols-3 gap-7">
-        {projects?.map((p) => (
+        {projects?.slice(0, 3).map((p) => (
           <div data-aos="zoom-in" key={p.name} className="h-full rounded-2xl">
             <div className="h-[280px] overflow-y-scroll  projectImage rounded-t-2xl">
               <img className="imageHoverScroll" src={p.image} alt="" />
@@ -51,6 +51,13 @@ const Projects = () => {
             </div>
           </div>
         ))}
+      </div>
+      <div className="text-center my-10">
+        <Link to="/allprojects">
+          <button className=" bg-[#88afdd] hover:bg-[#4776b9] focus:ring-4 shadow-lg shadow-[#abb49b]/50 font-semibold rounded-lg px-3 md:px-5 py-1 md:py-2 md:text-lg mb-2">
+            See More...
+          </button>
+        </Link>
       </div>
     </div>
   );
