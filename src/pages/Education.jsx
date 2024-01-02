@@ -7,21 +7,18 @@ const Education = () => {
       <div className="text-white ">
         <div className="container px-5 md:px-20  mx-auto">
           <div className="flex flex-wrap -m-4 ">
-            <div data-aos="zoom-out-up" className="p-4 w-full lg:w-1/3 ">
-              <div className="h-full  bg-[#144182] px-8  py-16 rounded-2xl text-center relative flex justify-center flex-col">
+            <div data-aos="zoom-out-up" className="p-4 w-full lg:w-1/3">
+              <div className="h-full  py-16 bg-[#144182] px-8 rounded-2xl text-center relative flex justify-center flex-col">
                 <h2 className="tracking-widest text-lg title-font font-medium  mb-1">
-                  SSC (2015)
+                  BSc (2018 - present)
                 </h2>
                 <h1 className="title-font sm:text-2xl text-xl font-medium  mb-3">
-                  Secondary School Certificate
+                  Bachelor of Science
                 </h1>
-                <p className="leading-relaxed mb-3">
-                  Bangladesh Railway Govt. High School
-                </p>
-                <p>Science Group</p>
+                <p className="leading-relaxed mb-3">National University</p>
+                <p>Department of Mathematics</p>
               </div>
             </div>
-
             <div data-aos="zoom-out-up" className="p-4 w-full lg:w-1/3">
               <div className="h-full bg-[#144182] px-8  py-16 rounded-2xl  text-center relative flex justify-center flex-col">
                 <h2 className="tracking-widest text-lg title-font font-medium  mb-1">
@@ -36,16 +33,18 @@ const Education = () => {
                 <p>Science Group</p>
               </div>
             </div>
-            <div data-aos="zoom-out-up" className="p-4 w-full lg:w-1/3">
-              <div className="h-full  py-16 bg-[#144182] px-8 rounded-2xl text-center relative flex justify-center flex-col">
+            <div data-aos="zoom-out-up" className="p-4 w-full lg:w-1/3 ">
+              <div className="h-full  bg-[#144182] px-8  py-16 rounded-2xl text-center relative flex justify-center flex-col">
                 <h2 className="tracking-widest text-lg title-font font-medium  mb-1">
-                  BSc (2018 - present)
+                  SSC (2015)
                 </h2>
                 <h1 className="title-font sm:text-2xl text-xl font-medium  mb-3">
-                  Bachelor of Science
+                  Secondary School Certificate
                 </h1>
-                <p className="leading-relaxed mb-3">National University</p>
-                <p>Department of Mathematics</p>
+                <p className="leading-relaxed mb-3">
+                  Bangladesh Railway Govt. High School
+                </p>
+                <p>Science Group</p>
               </div>
             </div>
           </div>
