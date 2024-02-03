@@ -11,7 +11,7 @@ const Projects = () => {
   return (
     <div className="container mx-auto px-5 md:px-20">
       <Title text={"Projects"} />
-      <div className="grid  grid-cols-1 lg:grid-cols-3 gap-7">
+      <div className="grid  grid-cols-1 lg:grid-cols-3 gap-7 md:ml-0 ml-10">
         {projects?.slice(0, 3).map((p) => (
           <div data-aos="zoom-in" key={p.name} className="h-full rounded-2xl">
             <div className="h-[280px] overflow-y-scroll  projectImage rounded-t-2xl">
@@ -44,7 +44,7 @@ const Projects = () => {
                 <h2 className="text-white text-xl mb-5">Technologies</h2>
                 <div className="flex gap-5 items-center flex-wrap">
                   {p.tech.map((t, idx) => (
-                    <img key={idx} className="h-7" src={t} alt="" />
+                    <img key={idx} className="h-6" src={t} alt="" />
                   ))}
                 </div>
               </div>

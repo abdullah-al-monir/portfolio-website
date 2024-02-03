@@ -20,13 +20,13 @@ import api from "../assets/logos/api.png";
 import nextjs from "../assets/logos/nextjs.webp";
 
 import { Tooltip } from "react-tooltip";
-import { useEffect } from "react";
+
 const Skills = () => {
  
   return (
-    <div className="container mx-auto p-5 md:px-20 overflow-hidden">
+    <div className="container mx-auto p-5 md:px-20 overflow-hidden ">
       <Title text={"My Skills"} />
-      <div className="text-center mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10">
+      <div className="text-center mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 ml-10 md:ml-0">
         <div
           data-aos="fade-right"
           className="flex flex-col justify-center items-center mb-5 px-5 bg-[#144182] rounded-2xl h-full"

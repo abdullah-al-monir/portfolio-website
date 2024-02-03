@@ -6,7 +6,7 @@ const Education = () => {
       <Title text={"Education"} />
       <div className="text-white ">
         <div className="container px-5 md:px-20  mx-auto">
-          <div className="flex flex-wrap -m-4 ">
+          <div className="flex flex-wrap -m-4 md:ml-0 ml-10">
             <div data-aos="zoom-out-up" className="p-4 w-full lg:w-1/3">
               <div className="h-full  py-16 bg-[#144182] px-8 rounded-2xl text-center relative flex justify-center flex-col">
                 <h2 className="tracking-widest text-lg title-font font-medium  mb-1">

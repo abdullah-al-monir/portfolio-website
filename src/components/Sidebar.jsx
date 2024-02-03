@@ -17,7 +17,7 @@ const Sidebar = ({ onPress }) => {
       <div className="col-md-4 col-sm-4 col-lg-4">
         <div className="position-relative w-100">
           <div
-            className="position-fixed top-0 ps-5"
+            className="position-fixed top-0 ps-1 md:ps-5"
             style={{ marginTop: "calc(60vh/2)" }}
           >
             <a onClick={(e) => onPress(e)} href="#header">

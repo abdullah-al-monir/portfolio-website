@@ -60,7 +60,7 @@ const Contact = () => {
           src="https://media.giphy.com/media/q7MQP6mA2W91Yqf9pv/giphy.gif"
           alt=""
         />
-        <div className="w-full md:w-1/2 mx-auto">
+        <div className="w-full md:w-1/2 mx-auto px-5">
           <div className="mx-auto">
             <form onSubmit={handleSendMessage} className="">
               <div className="p-2 w-full">

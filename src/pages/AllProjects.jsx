@@ -2,6 +2,9 @@ import { useEffect, useState } from "react";
 import Title from "../components/Title";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { FaArrowLeft } from "react-icons/fa";
+import { Tooltip } from "react-tooltip";
+import { Link } from "react-router-dom";
 const AllProjects = () => {
   const [projects, setProjects] = useState();
   useEffect(() => {
@@ -11,11 +14,25 @@ const AllProjects = () => {
       .then((data) => setProjects(data));
   }, []);
   return (
-    <div className="container mx-auto px-5 md:px-20 mt-20">
+    <div className="container mx-auto px-10 md:px-20 mt-20">
+      <div className="container mx-auto fixed top-1/2 lg:top-20 left-0 lg:left-10">
+        <Link to="/">
+          <button
+            className="text-white flex items-center gap-2 z-30 text-xl rotate-180"
+            data-tooltip-id="back"
+            data-tooltip-content="Go back"
+          >
+           <img className="w-12" src="https://media.giphy.com/media/Tv5xsOxaj4xP9sGos7/giphy.gif" alt="right arrow gif" />
+          </button>
+        </Link>
+      </div>
       <Title text={"All Projects"} />
-      <div className="grid  grid-cols-1 lg:grid-cols-3 gap-7">
+      <div className="grid  grid-cols-1 lg:grid-cols-3 gap-7 ml-5 md:ml-0">
         {projects?.map((p) => (
-          <div key={p.name} className="h-full rounded-2xl hover:scale-105 duration-300">
+          <div
+            key={p.name}
+            className="h-full rounded-2xl hover:scale-105 duration-300"
+          >
             <div className="h-[280px] overflow-y-scroll  projectImage rounded-t-2xl">
               <img className="imageHoverScroll" src={p.image} alt="" />
             </div>
@@ -54,7 +71,7 @@ const AllProjects = () => {
                 <h2 className="text-white text-xl mb-5">Technologies</h2>
                 <div className="flex gap-5 items-center flex-wrap">
                   {p.tech.map((t, idx) => (
-                    <img key={idx} className="h-7" src={t} alt="" />
+                    <img key={idx} className="h-5" src={t} alt="" />
                   ))}
                 </div>
               </div>
@@ -62,6 +79,7 @@ const AllProjects = () => {
           </div>
         ))}
       </div>
+      <Tooltip id="back" />
     </div>
   );
 };

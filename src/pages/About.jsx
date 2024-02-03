@@ -3,7 +3,7 @@ import image from "../assets/monir.png";
 import bg from "../assets/aboutBG.png";
 const About = () => {
   return (
-    <div className="container mx-auto p-5 md:p-20">
+    <div className="container mx-auto p-5 md:p-7 lg:p-20">
       <Title text={"About Me"} />
       <div className="flex flex-col md:flex-row items-center justify-center gap-10 lg:gap-20  bg-cover bg-center px-5 md:px-10 lg:px-20 pt-10">
         <div className="px-10">
