@@ -3,14 +3,18 @@ import Title from "../components/Title";
 import { useEffect, useState } from "react";
 const Projects = () => {
   const [projects, setProjects] = useState();
+
   useEffect(() => {
     fetch("/projects.json")
       .then((res) => res.json())
-      .then((data) => setProjects(data));
+      .then((data) => {
+        setProjects(data);
+      });
   }, []);
   return (
     <div className="container mx-auto px-5 md:px-20">
       <Title text={"Projects"} />
+
       <div className="grid  grid-cols-1 lg:grid-cols-3 gap-7 md:ml-0 ml-10">
         {projects?.slice(0, 3).map((p) => (
           <div data-aos="zoom-in" key={p.name} className="h-full rounded-2xl">

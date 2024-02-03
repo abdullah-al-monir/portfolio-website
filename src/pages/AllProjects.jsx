@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 import Title from "../components/Title";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { FaArrowLeft } from "react-icons/fa";
 import { Tooltip } from "react-tooltip";
 import { Link } from "react-router-dom";
+import MouseParticles from "react-mouse-particles";
 const AllProjects = () => {
   const [projects, setProjects] = useState();
   useEffect(() => {
@@ -15,6 +15,12 @@ const AllProjects = () => {
   }, []);
   return (
     <div className="container mx-auto px-10 md:px-20 mt-20">
+      <MouseParticles
+        g={1}
+        color="random"
+        cull="MuiSvgIcon-root,MuiButton-root"
+        level={6}
+      />
       <div className="container mx-auto fixed top-1/2 lg:top-20 left-0 lg:left-10">
         <Link to="/">
           <button
