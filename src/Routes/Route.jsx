@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import AllProjects from "../pages/AllProjects";
-import Layout from "../layout/layout";
+import Layout from "../layout/Layout";
 
 const Route = createBrowserRouter([
   {

@@ -27,26 +27,47 @@ const Projects = () => {
                   {p.name}
                 </h4>
                 <p className="text-xl text-white mt-2">{p.title}</p>
-                <div className="flex gap-2 text-xl text-[#2EDEF5] font-semibold my-3 ">
+                <div className="flex 2xl:flex-row lg:flex-col md:flex-row flex-col justify-center gap-2 text-xl text-[#2EDEF5] font-semibold my-3 w-full">
                   <img
-                    className="w-7"
+                    className="w-7 hidden 2xl:block"
                     src="https://media.giphy.com/media/Tv5xsOxaj4xP9sGos7/giphy.gif"
                     alt="right arrow gif"
                   />
-                  <a href={p.live} target="_blank" rel="noopener noreferrer">
-                    Live Site
-                  </a>
-                  |
-                  <a href={p.front} target="_blank" rel="noopener noreferrer">
-                    Front-End
-                  </a>
-                  |
-                  <a href={p.back} target="_blank" rel="noopener noreferrer">
-                    Back-End
-                  </a>
+                  <div className="flex items-center gap-2 flex-start">
+                    <img
+                      className="w-7 2xl:hidden"
+                      src="https://media.giphy.com/media/Tv5xsOxaj4xP9sGos7/giphy.gif"
+                      alt="right arrow gif"
+                    />
+                    <a href={p.live} target="_blank" rel="noopener noreferrer">
+                      Live Site
+                    </a>
+                  </div>
+                  <p className="hidden 2xl:block">|</p>
+                  <div className="flex items-center justify-center gap-2 flex-start">
+                    <img
+                      className="w-7 2xl:hidden"
+                      src="https://media.giphy.com/media/Tv5xsOxaj4xP9sGos7/giphy.gif"
+                      alt="right arrow gif"
+                    />
+                    <a href={p.front} target="_blank" rel="noopener noreferrer">
+                      Front-End
+                    </a>
+                  </div>
+                  <p className="hidden 2xl:block">|</p>
+                  <div className="flex items-center justify-end gap-2 flex-start">
+                    <img
+                      className="w-7 2xl:hidden"
+                      src="https://media.giphy.com/media/Tv5xsOxaj4xP9sGos7/giphy.gif"
+                      alt="right arrow gif"
+                    />
+                    <a href={p.back} target="_blank" rel="noopener noreferrer">
+                      Back-End
+                    </a>
+                  </div>
                 </div>
                 <h2 className="text-white text-xl mb-5">Technologies</h2>
-                <div className="flex gap-5 items-center flex-wrap">
+                <div className="flex gap-5 justify-center items-center flex-wrap">
                   {p.tech.map((t, idx) => (
                     <img key={idx} className="h-6" src={t} alt="" />
                   ))}

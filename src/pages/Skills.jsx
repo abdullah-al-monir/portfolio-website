@@ -18,11 +18,13 @@ import bootstrap from "../assets/logos/bootstrap.png";
 import es6 from "../assets/logos/es6.png";
 import api from "../assets/logos/api.png";
 import nextjs from "../assets/logos/nextjs.webp";
+import laravel from "../assets/logos/laravel.png";
+import php from "../assets/logos/php.png";
+import mysql from "../assets/logos/mysql.png";
 
 import { Tooltip } from "react-tooltip";
 
 const Skills = () => {
- 
   return (
     <div className="container mx-auto p-5 md:px-20 overflow-hidden ">
       <Title text={"My Skills"} />
@@ -32,7 +34,7 @@ const Skills = () => {
           className="flex flex-col justify-center items-center mb-5 px-5 bg-[#144182] rounded-2xl h-full"
         >
           <h2 className="text-white text-2xl my-5">Expertise</h2>
-          <div className="flex gap-5 md:gap-10 my-5 items-center flex-wrap">
+          <div className="flex gap-5 md:gap-10 my-5 items-center justify-center flex-wrap">
             <img
               data-tooltip-id="skills"
               data-tooltip-content="HTML"
@@ -52,6 +54,13 @@ const Skills = () => {
               data-tooltip-content="JavaScript"
               className="h-9 md:h-12"
               src={javascript}
+              alt=""
+            />
+            <img
+              data-tooltip-id="skills"
+              data-tooltip-content="PHP"
+              className="h-9 md:h-14"
+              src={php}
               alt=""
             />
             <img
@@ -76,7 +85,7 @@ const Skills = () => {
           className="flex flex-col justify-center items-center mb-5 px-5 bg-[#144182] rounded-2xl h-full"
         >
           <h2 className="text-white text-2xl my-5">Comfortable</h2>
-          <div className="flex gap-5 md:gap-10 my-5 items-center flex-wrap">
+          <div className="flex gap-5 md:gap-10 my-5 justify-center items-center flex-wrap">
             <img
               data-tooltip-id="skills"
               data-tooltip-content="MongoDB"
@@ -98,17 +107,25 @@ const Skills = () => {
               src={nodeJs}
               alt=""
             />
+
+            <img
+              data-tooltip-id="skills"
+              data-tooltip-content="Laravel"
+              className="h-8 md:h-14"
+              src={laravel}
+              alt=""
+            />
             <img
               data-tooltip-id="skills"
               data-tooltip-content="ES6"
-              className="h-8 md:h-11"
+              className="h-8 md:h-10"
               src={es6}
               alt=""
             />
             <img
               data-tooltip-id="skills"
               data-tooltip-content="RESTful API"
-              className="h-10 md:h-14"
+              className="h-10 md:h-12"
               src={api}
               alt=""
             />
@@ -119,7 +136,7 @@ const Skills = () => {
           className="flex flex-col justify-center items-center mb-5 px-5 bg-[#144182] rounded-2xl h-full"
         >
           <h2 className="text-white text-2xl my-5">Familiar</h2>
-          <div className="flex gap-5 md:gap-10 mt-5 mb-7 items-center flex-wrap">
+          <div className="flex gap-5 md:gap-10 mt-5 mb-7 justify-center items-center flex-wrap">
             <img
               data-tooltip-id="skills"
               data-tooltip-content="Bootstrap"
@@ -148,6 +165,13 @@ const Skills = () => {
               src={materialUi}
               alt=""
             />
+            <img
+              data-tooltip-id="skills"
+              data-tooltip-content="MySQL"
+              className="h-8 md:h-12"
+              src={mysql}
+              alt=""
+            />
           </div>
         </div>
 
@@ -156,7 +180,7 @@ const Skills = () => {
           className="flex flex-col justify-center items-center mb-5 px-5 bg-[#144182] rounded-2xl h-full"
         >
           <h2 className="text-white text-2xl my-5">Hosting</h2>
-          <div className="flex gap-5 md:gap-10 mt-5 mb-7 items-center flex-wrap">
+          <div className="flex gap-5 md:gap-10 mt-5 mb-7 justify-center items-center flex-wrap">
             <img
               data-tooltip-id="skills"
               data-tooltip-content="Github"

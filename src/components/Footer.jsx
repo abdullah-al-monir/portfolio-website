@@ -17,7 +17,7 @@ const Footer = () => {
     <div className="">
       <div
         data-aos="fade-up"
-        className="container px-6 py-12 mx-auto text-white"
+        className="container px-6 pt-12 mx-auto text-white"
       >
         <div className="text-center">
           <p className="mt-3 text-xl font-semibold  md:text-2xl">
