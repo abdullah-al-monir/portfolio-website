@@ -8,6 +8,8 @@ import Skills from "./Skills";
 import ScrollSpy from "react-ui-scrollspy";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Services from "./Services";
+import Experience from "./Experience";
 const Home = () => {
   useEffect(() => {
     Aos.init();
@@ -27,8 +29,14 @@ const Home = () => {
         <div id="about" className="mb-20">
           <About />
         </div>
+        <div id="services" className="mb-20">
+          <Services />
+        </div>
         <div id="skills" className="mb-20">
           <Skills />
+        </div>
+        <div id="experience" className="mb-20">
+          <Experience />
         </div>
         <div id="projects" className="mb-20">
           <Projects />

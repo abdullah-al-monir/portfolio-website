@@ -1,0 +1,28 @@
+[
+  {
+    "company": "Synchronise It",
+    "role": "Software Developer Trainee",
+    "startDate": "March 2024",
+    "endDate": "Present",
+    "responsibilities": [
+      "Assisting in the development of web applications using modern technologies.",
+      "Collaborating with senior developers to fix bugs and implement new features.",
+      "Writing clean, efficient, and maintainable code.",
+      "Participating in code reviews and team meetings.",
+      "Contributing to the design and architecture of software solutions."
+    ]
+  },
+  {
+    "company": "Self-Employed",
+    "role": "ICT and Math Teacher",
+    "startDate": "July 2024",
+    "endDate": "Present",
+    "responsibilities": [
+      "Conducting online tutoring sessions for ICT and Math subjects.",
+      "Customizing lesson plans to meet the needs of virtual learners.",
+      "Utilizing digital tools and resources to enhance learning experiences.",
+      "Providing timely feedback and support to students through online platforms.",
+      "Monitoring student progress and adjusting teaching strategies as needed."
+    ]
+  }
+]

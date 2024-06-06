@@ -1,0 +1,48 @@
+[
+  {
+    "title": "Bug Fixing",
+    "img": "/images/service1.jpg",
+    "details": [
+      "Identify and fix bugs in your code for improved functionality",
+      "Ensure smooth and error-free operation of your application",
+      "Optimize performance and enhance user experience",
+      "Fix issues in HTML, CSS, and JavaScript for better front-end performance",
+      "Resolve bugs in React applications to ensure seamless interactivity",
+      "Debug and fix problems in PHP and Laravel projects forback-end functionality",
+      "Handle database-related bugs in MySQL to ensure data accuracy and efficiency",
+      "Fix issues in Firebase integrations for reliable real-time updates",
+      "Conduct thorough testing to prevent future issues and ensure stability"
+    ]
+  },
+  {
+    "title": "Web Development",
+    "img": "/images/service2.jpg",
+    "details": [
+      "Develop full-stack applications using MongoDB, Express.js, React, and Node.js",
+      "Build robust and scalable web applications",
+      "Create responsive and user-friendly interfaces",
+      "Utilize popular React libraries such as Redux, React Router, and Axios",
+      "Implement dynamic features using React hooks and state management",
+      "Integrate third-party APIs and services",
+      "Develop server-side applications with PHP and Laravel",
+      "Build reactive interfaces with Inertia.js",
+      "Provide ongoing maintenance and support"
+    ]
+  },
+  {
+    "title": "Figma to HTML/CSS/React",
+    "img": "/images/service3.jpg",
+    "details": [
+      "Convert Figma designs into responsive HTML, CSS, and React components",
+      "Ensure pixel-perfect implementation of designs",
+      "Optimize for performance and accessibility",
+      "Implement best practices for responsive design",
+      "Ensure cross-browser compatibility",
+      "Utilize modern CSS techniques such as Flexbox and Grid",
+      "Integrate with existing React applications",
+      "Use Tailwind CSS for rapid UI development",
+      "Implement Material Tailwind components for a modern look",
+      "Provide ongoing maintenance and updates"
+    ]
+  }
+]

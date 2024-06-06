@@ -77,17 +77,25 @@ const AllProjects = () => {
                       Front-End
                     </a>
                   </div>
-                  <p className="hidden 2xl:block">|</p>
-                  <div className="flex items-center justify-end gap-2 flex-start">
-                    <img
-                      className="w-7 2xl:hidden"
-                      src="https://media.giphy.com/media/Tv5xsOxaj4xP9sGos7/giphy.gif"
-                      alt="right arrow gif"
-                    />
-                    <a href={p.back} target="_blank" rel="noopener noreferrer">
-                      Back-End
-                    </a>
-                  </div>
+                  {p.back && (
+                    <>
+                      <p className="hidden 2xl:block">|</p>
+                      <div className="flex items-center justify-end gap-2 flex-start">
+                        <img
+                          className="w-7 2xl:hidden"
+                          src="https://media.giphy.com/media/Tv5xsOxaj4xP9sGos7/giphy.gif"
+                          alt="right arrow gif"
+                        />
+                        <a
+                          href={p.back}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Back-End
+                        </a>
+                      </div>
+                    </>
+                  )}
                 </div>
                 <h2 className="text-white text-xl mb-5">Technologies</h2>
                 <div className="flex gap-5 justify-center items-center flex-wrap">

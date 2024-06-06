@@ -1,13 +1,16 @@
 import { AiOutlineHome } from "react-icons/ai";
-import { FaRegUser } from "react-icons/fa";
+import { FaRegUser, FaServicestack } from "react-icons/fa";
 import { MdOutlineSettings } from "react-icons/md";
 import { GrProjects, GrContact } from "react-icons/gr";
 import { SlGraduation } from "react-icons/sl";
 import { useState } from "react";
+import { GoGoal } from "react-icons/go";
 const Sidebar = ({ onPress }) => {
   const [isHomeHovered, setIsHomeHovered] = useState(false);
   const [isAboutHovered, setIsAboutHovered] = useState(false);
+  const [isServiceHovered, setIsServiceHovered] = useState(false);
   const [isSkillsHovered, setIsSkillsHovered] = useState(false);
+  const [isExperienceHovered, setIsExperienceHovered] = useState(false);
   const [isProjectsHovered, setIsProjectsHovered] = useState(false);
   const [isEducationHovered, setIsEducationHovered] = useState(false);
   const [isContactHovered, setIsContactHovered] = useState(false);
@@ -50,18 +53,47 @@ const Sidebar = ({ onPress }) => {
                 )}
               </div>
             </a>
-            <a onClick={(e) => onPress(e)} href={"#skills"}>
+            <a onClick={(e) => onPress(e)} href="#services">
+              <div
+                data-to-scrollspy-id="services"
+                className="section flex items-center gap-2 relative"
+                onMouseEnter={() => setIsServiceHovered(true)}
+                onMouseLeave={() => setIsServiceHovered(false)}
+              >
+                <FaServicestack className="text-2xl" />
+                {isServiceHovered && (
+                  <p className="absolute top-0 left-0 pl-[70px] text-right right-0 bottom-0 flex items-center justify-center transition-opacity duration-300 opacity-100">
+                    Service
+                  </p>
+                )}
+              </div>
+            </a>
+            <a onClick={(e) => onPress(e)} href="#skills">
               <div
                 data-to-scrollspy-id="skills"
-                className="section  flex items-center gap-2 relative"
+                className="section flex items-center gap-2 relative"
                 onMouseEnter={() => setIsSkillsHovered(true)}
                 onMouseLeave={() => setIsSkillsHovered(false)}
               >
                 <MdOutlineSettings className="text-2xl" />
-
                 {isSkillsHovered && (
                   <p className="absolute top-0 left-0 pl-[60px] text-right right-0 bottom-0 flex items-center justify-center transition-opacity duration-300 opacity-100">
                     Skills
+                  </p>
+                )}
+              </div>
+            </a>
+            <a onClick={(e) => onPress(e)} href="#experience">
+              <div
+                data-to-scrollspy-id="experience"
+                className="section flex items-center gap-2 relative"
+                onMouseEnter={() => setIsExperienceHovered(true)}
+                onMouseLeave={() => setIsExperienceHovered(false)}
+              >
+                <GoGoal className="text-2xl" />
+                {isExperienceHovered && (
+                  <p className="absolute top-0 left-0 pl-[84px] text-right right-0 bottom-0 flex items-center justify-center transition-opacity duration-300 opacity-100">
+                    Experience
                   </p>
                 )}
               </div>
