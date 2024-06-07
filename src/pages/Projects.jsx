@@ -1,23 +1,39 @@
 import { Link } from "react-router-dom";
 import Title from "../components/Title";
 import { useEffect, useState } from "react";
+import { SyncLoader } from "react-spinners";
 const Projects = () => {
   const [projects, setProjects] = useState();
-
+  const [loading, setLoading] = useState(true);
   useEffect(() => {
     fetch("/projects.json")
       .then((res) => res.json())
       .then((data) => {
         setProjects(data);
+        setLoading(false);
       });
-  }, []);
+  }, [setLoading]);
+  if (loading) {
+    return (
+      <div className="flex justify-center items-center h-[100vh]">
+        <SyncLoader
+          color="#2EDEF5"
+          className="h-10 w-10 text-center text-secondary"
+        />
+      </div>
+    );
+  }
   return (
     <div className="container mx-auto px-5 md:px-20">
       <Title text={"Projects"} />
 
       <div className="grid  grid-cols-1 lg:grid-cols-3 gap-7 md:ml-0 ml-10">
         {projects?.slice(0, 3).map((p) => (
-          <div data-aos="zoom-in" key={p.name} className="h-full rounded-2xl">
+          <div
+             data-aos="zoom-in"
+            key={p.name}
+            className="h-full rounded-2xl"
+          >
             <div className="h-[280px] overflow-y-scroll  projectImage rounded-t-2xl">
               <img className="imageHoverScroll" src={p.image} alt="" />
             </div>
@@ -33,7 +49,7 @@ const Projects = () => {
                     src="https://media.giphy.com/media/Tv5xsOxaj4xP9sGos7/giphy.gif"
                     alt="right arrow gif"
                   />
-                  <div className="flex items-center gap-2 flex-start">
+                  <div className="flex items-center justify-center gap-2">
                     <img
                       className="w-7 2xl:hidden"
                       src="https://media.giphy.com/media/Tv5xsOxaj4xP9sGos7/giphy.gif"
@@ -43,7 +59,7 @@ const Projects = () => {
                       Live Site
                     </a>
                   </div>
-                  <p className="hidden 2xl:block">|</p>
+                  {/* <p className="hidden 2xl:block">|</p>
                   <div className="flex items-center justify-center gap-2 flex-start">
                     <img
                       className="w-7 2xl:hidden"
@@ -64,7 +80,7 @@ const Projects = () => {
                     <a href={p.back} target="_blank" rel="noopener noreferrer">
                       Back-End
                     </a>
-                  </div>
+                  </div> */}
                 </div>
                 <h2 className="text-white text-xl mb-5">Technologies</h2>
                 <div className="flex gap-5 justify-center items-center flex-wrap">

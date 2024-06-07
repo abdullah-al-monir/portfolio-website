@@ -6,14 +6,30 @@ import { Tooltip } from "react-tooltip";
 import { Link } from "react-router-dom";
 import MouseParticles from "react-mouse-particles";
 import Footer from "../components/Footer";
+import { SyncLoader } from "react-spinners";
 const AllProjects = () => {
   const [projects, setProjects] = useState();
+  const [loading, setLoading] = useState(true);
   useEffect(() => {
-    Aos.init();
     fetch("/projects.json")
       .then((res) => res.json())
-      .then((data) => setProjects(data));
-  }, []);
+      .then((data) => {
+        setProjects(data);
+        setLoading(false);
+      });
+    Aos.init();
+  }, [setLoading]);
+  if (loading) {
+    return (
+      <div className="flex justify-center items-center h-[100vh]">
+        <SyncLoader
+          color="#2EDEF5"
+          className="h-10 w-10 text-center text-secondary"
+        />
+      </div>
+    );
+  }
+
   return (
     <div className="container mx-auto px-10 md:px-20 mt-20">
       <MouseParticles
@@ -66,7 +82,7 @@ const AllProjects = () => {
                       Live Site
                     </a>
                   </div>
-                  <p className="hidden 2xl:block">|</p>
+                  {/* <p className="hidden 2xl:block">|</p>
                   <div className="flex items-center justify-center gap-2 flex-start">
                     <img
                       className="w-7 2xl:hidden"
@@ -95,7 +111,7 @@ const AllProjects = () => {
                         </a>
                       </div>
                     </>
-                  )}
+                  )} */}
                 </div>
                 <h2 className="text-white text-xl mb-5">Technologies</h2>
                 <div className="flex gap-5 justify-center items-center flex-wrap">

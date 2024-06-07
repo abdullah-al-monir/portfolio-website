@@ -2,7 +2,7 @@ const Title = ({ text }) => {
   return (
     <div
       data-aos="flip-up"
-      className="text-center mb-14 uppercase overflow-hidden"
+      className="text-center  my-14 uppercase overflow-hidden"
     >
       <h2 className="text-2xl md:text-3xl lg:text-4xl text-[#88afdd] font-semibold tracking-widest">
         {text}

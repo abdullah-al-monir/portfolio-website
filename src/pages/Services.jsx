@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Title from "../components/Title";
 import { FaCheckSquare } from "react-icons/fa";
+import { SyncLoader } from "react-spinners";
 const Services = () => {
   const [services, setServices] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -15,8 +16,10 @@ const Services = () => {
   if (loading) {
     return (
       <div className="flex justify-center items-center h-[100vh]">
-        loading
-        {/* <Spinner className="h-10 w-10 text-center text-secondary" /> */}
+        <SyncLoader
+          color="#36d7b7"
+          className="h-10 w-10 text-center text-secondary"
+        />
       </div>
     );
   }

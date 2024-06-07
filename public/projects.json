@@ -4,8 +4,6 @@
     "title": "A car showroom website",
     "image": "/automotive.png",
     "tech": [
-      "/logos/html.png",
-      "/logos/css.png",
       "/logos/tailwind.png",
       "/logos/mongoDB.png",
       "/logos/expressJs.png",
@@ -22,8 +20,6 @@
     "title": "A diagnostic center website",
     "image": "/nexgen.png",
     "tech": [
-      "/logos/html.png",
-      "/logos/css.png",
       "/logos/materialUi.png",
       "/logos/mongoDB.png",
       "/logos/expressJs.png",
@@ -40,8 +36,6 @@
     "title": "A job recruitment website",
     "image": "/workAtlas.png",
     "tech": [
-      "/logos/html.png",
-      "/logos/css.png",
       "/logos/tailwind.png",
       "/logos/mongoDB.png",
       "/logos/expressJs.png",
@@ -52,6 +46,37 @@
     "live": "https://work-atlas.web.app",
     "front": "https://github.com/abdullah-al-monir/work-atlas-client",
     "back": "https://github.com/abdullah-al-monir/work-atlas-server"
+  },
+  {
+    "name": "Task Sync Pro",
+    "title": "A Task Management website",
+    "image": "/task-sync-pro.png",
+    "tech": [
+      "/logos/tailwind.png",
+      "/logos/mongoDB.png",
+      "/logos/expressJs.png",
+      "/logos/reactJs.png",
+      "/logos/nodeJs.png",
+      "/logos/firebase.png"
+    ],
+    "live": "https://task-sync-pro-401d7.web.app/",
+    "front": "https://github.com/abdullah-al-monir/task-sync-pro-client",
+    "back": "https://github.com/abdullah-al-monir/task-sync-pro-server"
+  },
+  {
+    "name": "Phone Fusion",
+    "title": "A Phone Shop website",
+    "image": "/phone-fusion.png",
+    "tech": [
+      "/logos/tailwind.png",
+      "/logos/mongoDB.png",
+      "/logos/expressJs.png",
+      "/logos/reactJs.png",
+      "/logos/nodeJs.png"
+    ],
+    "live": "https://phone-fusion-364.web.app",
+    "front": "https://github.com/abdullah-al-monir/phone-fusion-client",
+    "back": "https://github.com/abdullah-al-monir/phone-fusion-server"
   },
   {
     "name": "SPORTACULAR360",
