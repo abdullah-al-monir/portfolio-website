@@ -72,7 +72,7 @@ const AllProjects = () => {
                     src="https://media.giphy.com/media/Tv5xsOxaj4xP9sGos7/giphy.gif"
                     alt="right arrow gif"
                   />
-                  <div className="flex items-center gap-2 flex-start">
+                  <div className="flex items-center justify-center gap-2">
                     <img
                       className="w-7 2xl:hidden"
                       src="https://media.giphy.com/media/Tv5xsOxaj4xP9sGos7/giphy.gif"
