@@ -9,7 +9,7 @@ const About = () => {
         <div className="w-3/4 md:w-1/2 mb-10 lg:mb-0">
           <p className="text-md  lg:text-2xl text-white lg:leading-relaxed">
             I am working as a <strong className="text-[#88afdd]">Software Developer Trainee</strong> at Synchronise IT. Along with my
-            core competencies in the MERN stack, I work closely with React,
+            core competencies in the MERN stack, I work closely with ReactJs, NextJs,
             Laravel, Inertia.js, and MySQL in my role. I have a strong desire to
             create faultless online experiences and am always looking to explore
             the newest developments in web technology. I'm excited to pick up
