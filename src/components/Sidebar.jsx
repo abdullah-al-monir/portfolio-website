@@ -32,7 +32,7 @@ const Sidebar = ({ onPress }) => {
               >
                 <AiOutlineHome className="text-2xl" />
                 {isHomeHovered && (
-                  <p className="absolute top-0 left-0 pl-16 text-right right-0 bottom-0 flex items-center justify-center transition-opacity duration-300 opacity-100">
+                  <p className="absolute top-0 left-0 pl-16 text-right right-0 bottom-0 hidden md:flex items-center justify-center transition-opacity duration-300 opacity-100">
                     Home
                   </p>
                 )}
@@ -47,7 +47,7 @@ const Sidebar = ({ onPress }) => {
               >
                 <FaRegUser className="text-xl" />
                 {isAboutHovered && (
-                  <p className="absolute top-0 left-0 pl-16 text-right right-0 bottom-0 flex items-center justify-center transition-opacity duration-300 opacity-100">
+                  <p className="absolute top-0 left-0 pl-16 text-right right-0 bottom-0 hidden md:flex items-center justify-center transition-opacity duration-300 opacity-100">
                     About
                   </p>
                 )}
@@ -62,7 +62,7 @@ const Sidebar = ({ onPress }) => {
               >
                 <FaServicestack className="text-2xl" />
                 {isServiceHovered && (
-                  <p className="absolute top-0 left-0 pl-[70px] text-right right-0 bottom-0 flex items-center justify-center transition-opacity duration-300 opacity-100">
+                  <p className="absolute top-0 left-0 pl-[70px] text-right right-0 bottom-0 hidden md:flex items-center justify-center transition-opacity duration-300 opacity-100">
                     Service
                   </p>
                 )}
@@ -77,7 +77,7 @@ const Sidebar = ({ onPress }) => {
               >
                 <MdOutlineSettings className="text-2xl" />
                 {isSkillsHovered && (
-                  <p className="absolute top-0 left-0 pl-[60px] text-right right-0 bottom-0 flex items-center justify-center transition-opacity duration-300 opacity-100">
+                  <p className="absolute top-0 left-0 pl-[60px] text-right right-0 bottom-0 hidden md:flex items-center justify-center transition-opacity duration-300 opacity-100">
                     Skills
                   </p>
                 )}
@@ -92,7 +92,7 @@ const Sidebar = ({ onPress }) => {
               >
                 <GoGoal className="text-2xl" />
                 {isExperienceHovered && (
-                  <p className="absolute top-0 left-0 pl-[84px] text-right right-0 bottom-0 flex items-center justify-center transition-opacity duration-300 opacity-100">
+                  <p className="absolute top-0 left-0 pl-[84px] text-right right-0 bottom-0 hidden md:flex items-center justify-center transition-opacity duration-300 opacity-100">
                     Experience
                   </p>
                 )}
@@ -108,7 +108,7 @@ const Sidebar = ({ onPress }) => {
                 <GrProjects className="text-xl" />
 
                 {isProjectsHovered && (
-                  <p className="absolute top-0 left-0 pl-[75px] text-right right-0 bottom-0 flex items-center justify-center transition-opacity duration-300 opacity-100">
+                  <p className="absolute top-0 left-0 pl-[75px] text-right right-0 bottom-0 hidden md:flex items-center justify-center transition-opacity duration-300 opacity-100">
                     Projects
                   </p>
                 )}
@@ -124,7 +124,7 @@ const Sidebar = ({ onPress }) => {
                 <SlGraduation className="text-2xl" />
 
                 {isEducationHovered && (
-                  <p className="absolute top-0 left-0 pl-[85px] text-right right-0 bottom-0 flex items-center justify-center transition-opacity duration-300 opacity-100">
+                  <p className="absolute top-0 left-0 pl-[85px] text-right right-0 bottom-0 hidden md:flex items-center justify-center transition-opacity duration-300 opacity-100">
                     Education
                   </p>
                 )}
@@ -140,7 +140,7 @@ const Sidebar = ({ onPress }) => {
                 <GrContact className="text-2xl" />
 
                 {isContactHovered && (
-                  <p className="absolute top-0 left-0 pl-[75px] text-right right-0 bottom-0 flex items-center justify-center transition-opacity duration-300 opacity-100">
+                  <p className="absolute top-0 left-0 pl-[75px] text-right right-0 bottom-0 hidden md:flex items-center justify-center transition-opacity duration-300 opacity-100">
                     Contact
                   </p>
                 )}
