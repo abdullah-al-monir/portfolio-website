@@ -7,6 +7,7 @@ import { FaRegCopyright } from "react-icons/fa";
 import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { Tooltip } from "react-tooltip";
 const Footer = () => {
   useEffect(() => {
     Aos.init();
@@ -27,21 +28,38 @@ const Footer = () => {
 
         <div className="grid grid-cols-1 gap-12 mt-10  justify-center md:grid-cols-3">
           <div className="flex flex-col items-center justify-center text-center">
-            <span className="p-2 border border-[#88afdd] rounded-full text-[#88afdd] ">
-              <MdOutlinePhone />
-            </span>
+            <a
+              href="tel:+8801848384326"
+              className="p-2 border border-[#88afdd] rounded-full text-[#88afdd] inline-block"
+              data-tooltip-id="contact"
+              data-tooltip-content="Call me"
+            >
+              <MdOutlinePhone className="text-lg" />
+            </a>
             <p className="mt-2 text-[#88afdd] ">+880 1848 384326</p>
           </div>
           <div className="flex flex-col items-center justify-center text-center">
-            <span className="p-2 border border-[#88afdd] rounded-full text-[#88afdd] ">
+            <a
+              href="mailto:abdullahalmonir364@gmail.com"
+              className="p-2 border border-[#88afdd] rounded-full text-[#88afdd] inline-block"
+              data-tooltip-id="contact"
+              data-tooltip-content="Send email"
+            >
               <MdOutlineMarkEmailUnread className="text-lg" />
-            </span>
+            </a>
             <p className="mt-2 text-[#88afdd]">abdullahalmonir364@gmail.com</p>
           </div>
           <div className="flex flex-col items-center justify-center text-center">
-            <span className="p-2 border border-[#88afdd] rounded-full text-[#88afdd] ">
+            <a
+              href="https://www.google.com/maps/place/Chittagong,+Bangladesh"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 border border-[#88afdd] rounded-full text-[#88afdd]"
+              data-tooltip-id="contact"
+              data-tooltip-content="My location"
+            >
               <MdOutlineLocationOn className="text-md" />
-            </span>
+            </a>
             <p className="mt-2 text-[#88afdd]">Chittagong, Bangladesh</p>
           </div>
         </div>
@@ -50,6 +68,7 @@ const Footer = () => {
           <h4> Abdullah Al Monir {presentYear}. All Rights Reserved.</h4>
         </div>
       </div>
+      <Tooltip id="contact" />
     </div>
   );
 };

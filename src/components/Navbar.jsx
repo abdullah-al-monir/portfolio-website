@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { BsGithub } from "react-icons/bs";
+import { FaWhatsapp } from "react-icons/fa";
 import { RiLinkedinBoxLine, RiFacebookBoxLine } from "react-icons/ri";
 
 const Navbar = () => {
@@ -20,10 +21,10 @@ const Navbar = () => {
     <div className={`w-full fixed z-20`}>
       <div></div>
       <div
-        className={`flex gap-10 justify-end items-center py-5 pr-5 md:py-7 md:mp-10`}
+        className={`flex gap-5 md:gap-7 lg:gap-10 justify-end items-center py-5 pr-5 md:py-7 md:mp-10`}
       >
         <img
-          className={`w-14 transition-all duration-300 ${
+          className={`w-10 md:w-12 lg:w-14 transition-all duration-300 ${
             scrollY > 0
               ? "bg-[#040615] bg-opacity-50 backdrop-blur-sm"
               : "bg-transparent"
@@ -41,7 +42,7 @@ const Navbar = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <RiLinkedinBoxLine className="text-4xl text-white hover:text-[#88afdd] m-2" />
+          <RiLinkedinBoxLine className="text-3xl lg:text-4xl text-white hover:text-[#88afdd] m-2" />
         </a>
         <a
           className={`transition-all duration-300 rounded-full ${
@@ -53,7 +54,19 @@ const Navbar = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <BsGithub className="text-3xl text-white hover:text-[#88afdd] m-3" />
+          <BsGithub className="text-2xl lg:text-3xl text-white hover:text-[#88afdd] m-3" />
+        </a>
+        <a
+          className={`transition-all duration-300 ${
+            scrollY > 0
+              ? "bg-[#040615] bg-opacity-50 backdrop-blur-sm"
+              : "bg-transparent"
+          }`}
+          href="https://wa.me/+8801848384326"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaWhatsapp className="text-3xl lg:text-4xl text-white hover:text-[#88afdd] m-2" />
         </a>
         <a
           className={`transition-all duration-300 ${
@@ -65,7 +78,7 @@ const Navbar = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <RiFacebookBoxLine className="text-4xl text-white hover:text-[#88afdd] m-2" />
+          <RiFacebookBoxLine className="text-3xl lg:text-4xl text-white hover:text-[#88afdd] m-2" />
         </a>
       </div>
     </div>
