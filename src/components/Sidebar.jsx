@@ -32,9 +32,9 @@ const Sidebar = ({ onPress }) => {
               >
                 <AiOutlineHome className="text-2xl" />
                 {isHomeHovered && (
-                  <p className="absolute top-0 left-0 pl-16 text-right right-0 bottom-0 hidden md:flex items-center justify-center transition-opacity duration-300 opacity-100">
+                  <h2 className="absolute top-0 left-0 pl-16 text-right right-0 bottom-0 hidden md:flex items-center justify-center transition-opacity duration-300 opacity-100">
                     Home
-                  </p>
+                  </h2>
                 )}
               </div>
             </a>
@@ -47,9 +47,9 @@ const Sidebar = ({ onPress }) => {
               >
                 <FaRegUser className="text-xl" />
                 {isAboutHovered && (
-                  <p className="absolute top-0 left-0 pl-16 text-right right-0 bottom-0 hidden md:flex items-center justify-center transition-opacity duration-300 opacity-100">
+                  <h2 className="absolute top-0 left-0 pl-16 text-right right-0 bottom-0 hidden md:flex items-center justify-center transition-opacity duration-300 opacity-100">
                     About
-                  </p>
+                  </h2>
                 )}
               </div>
             </a>
@@ -62,9 +62,9 @@ const Sidebar = ({ onPress }) => {
               >
                 <FaServicestack className="text-2xl" />
                 {isServiceHovered && (
-                  <p className="absolute top-0 left-0 pl-[70px] text-right right-0 bottom-0 hidden md:flex items-center justify-center transition-opacity duration-300 opacity-100">
+                  <h2 className="absolute top-0 left-0 pl-[70px] text-right right-0 bottom-0 hidden md:flex items-center justify-center transition-opacity duration-300 opacity-100">
                     Service
-                  </p>
+                  </h2>
                 )}
               </div>
             </a>
@@ -77,9 +77,9 @@ const Sidebar = ({ onPress }) => {
               >
                 <MdOutlineSettings className="text-2xl" />
                 {isSkillsHovered && (
-                  <p className="absolute top-0 left-0 pl-[60px] text-right right-0 bottom-0 hidden md:flex items-center justify-center transition-opacity duration-300 opacity-100">
+                  <h2 className="absolute top-0 left-0 pl-[60px] text-right right-0 bottom-0 hidden md:flex items-center justify-center transition-opacity duration-300 opacity-100">
                     Skills
-                  </p>
+                  </h2>
                 )}
               </div>
             </a>
@@ -92,9 +92,9 @@ const Sidebar = ({ onPress }) => {
               >
                 <GoGoal className="text-2xl" />
                 {isExperienceHovered && (
-                  <p className="absolute top-0 left-0 pl-[84px] text-right right-0 bottom-0 hidden md:flex items-center justify-center transition-opacity duration-300 opacity-100">
+                  <h2 className="absolute top-0 left-0 pl-[84px] text-right right-0 bottom-0 hidden md:flex items-center justify-center transition-opacity duration-300 opacity-100">
                     Experience
-                  </p>
+                  </h2>
                 )}
               </div>
             </a>
@@ -108,9 +108,9 @@ const Sidebar = ({ onPress }) => {
                 <GrProjects className="text-xl" />
 
                 {isProjectsHovered && (
-                  <p className="absolute top-0 left-0 pl-[75px] text-right right-0 bottom-0 hidden md:flex items-center justify-center transition-opacity duration-300 opacity-100">
+                  <h2 className="absolute top-0 left-0 pl-[75px] text-right right-0 bottom-0 hidden md:flex items-center justify-center transition-opacity duration-300 opacity-100">
                     Projects
-                  </p>
+                  </h2>
                 )}
               </div>
             </a>
@@ -124,9 +124,9 @@ const Sidebar = ({ onPress }) => {
                 <SlGraduation className="text-2xl" />
 
                 {isEducationHovered && (
-                  <p className="absolute top-0 left-0 pl-[85px] text-right right-0 bottom-0 hidden md:flex items-center justify-center transition-opacity duration-300 opacity-100">
+                  <h2 className="absolute top-0 left-0 pl-[85px] text-right right-0 bottom-0 hidden md:flex items-center justify-center transition-opacity duration-300 opacity-100">
                     Education
-                  </p>
+                  </h2>
                 )}
               </div>
             </a>
@@ -140,9 +140,9 @@ const Sidebar = ({ onPress }) => {
                 <GrContact className="text-2xl" />
 
                 {isContactHovered && (
-                  <p className="absolute top-0 left-0 pl-[75px] text-right right-0 bottom-0 hidden md:flex items-center justify-center transition-opacity duration-300 opacity-100">
+                  <h2 className="absolute top-0 left-0 pl-[75px] text-right right-0 bottom-0 hidden md:flex items-center justify-center transition-opacity duration-300 opacity-100">
                     Contact
-                  </p>
+                  </h2>
                 )}
               </div>
             </a>

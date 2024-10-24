@@ -10,7 +10,7 @@ const Education = () => {
             <div data-aos="zoom-out-up" className="p-4 w-full lg:w-1/3">
               <div className="h-full  py-16 bg-[#144182] px-8 rounded-2xl text-center relative flex justify-center flex-col">
                 <h2 className="tracking-widest text-lg title-font font-medium  mb-1">
-                  BSc (2018 - present)
+                  BSc (2018 - 2024)
                 </h2>
                 <h1 className="title-font sm:text-2xl text-xl font-medium  mb-3">
                   Bachelor of Science

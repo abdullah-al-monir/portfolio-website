@@ -11,13 +11,14 @@ const Header = () => {
         />
       </div>
       <div>
-        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-5 text-white leading-10">
-          Welcome! I am Abdullah Al Monir,
+        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-5 text-white leading-10 space-y-5">
+          Welcome! <br /> I am Abdullah Al Monir,
         </h2>
         <div className="text-xl md:text-2xl lg:text-4xl font-semibold text-[#88afdd]">
           <Typewriter
             options={{
               strings: [
+                "A Software Stack Developer",
                 "A MERN Stack Developer",
                 "A Frontend Developer",
                 "A ReactJs Developer",

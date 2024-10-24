@@ -30,7 +30,7 @@ const Projects = () => {
       <div className="grid  grid-cols-1 lg:grid-cols-3 gap-7 md:ml-0 ml-10">
         {projects?.slice(0, 3).map((p) => (
           <div
-             data-aos="zoom-in"
+            data-aos="zoom-in"
             key={p.name}
             className="h-full rounded-2xl"
           >

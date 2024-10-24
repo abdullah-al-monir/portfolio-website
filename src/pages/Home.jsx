@@ -38,7 +38,7 @@ const Home = () => {
         <div id="experience" className="mb-20">
           <Experience />
         </div>
-        <div id="projects" className="mb-20">
+        <div id="projects" className="pt-5 mb-20">
           <Projects />
         </div>
         <div id="education" className="mb-20">
