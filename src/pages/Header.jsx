@@ -11,17 +11,17 @@ const Header = () => {
         />
       </div>
       <div>
-        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-3  lg:mb-5 text-white leading-10">
+        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold md:mb-3  lg:mb-5 text-white leading-10">
           Welcome!
         </h2>
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-3  lg:mb-5 text-white leading-10">
-          I am Abdullah Al Monir,
-        </h1>
+        <div className="text-3xl md:text-4xl lg:text-5xl font-bold md:mb-3  lg:mb-5 text-white leading-10 flex items-end flex-wrap gap-2">
+          <p>I am </p> <h2>Abdullah Al Monir,</h2>
+        </div>
         <div className="text-xl md:text-2xl lg:text-4xl font-semibold text-[#88afdd]">
           <Typewriter
             options={{
               strings: [
-                "A Software Stack Developer",
+                "A Software Developer",
                 "A MERN Stack Developer",
                 "A Frontend Developer",
                 "A ReactJs Developer",
