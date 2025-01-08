@@ -1,27 +1,27 @@
 import Title from "../components/Title";
-import mongoDB from "../assets/logos/mongoDB.png";
-import reactJs from "../assets/logos/reactJs.png";
-import expressJs from "../assets/logos/expressJs.png";
-import jwt from "../assets/logos/jwt.png";
-import firebase from "../assets/logos/firebase.png";
-import materialUi from "../assets/logos/materialUi.png";
-import tailwind from "../assets/logos/tailwind.png";
-import nodeJs from "../assets/logos/nodeJs.png";
-import vercel from "../assets/logos/vercel.png";
-import html from "../assets/logos/html.png";
-import css from "../assets/logos/css.png";
-import javascript from "../assets/logos/javascript.png";
-import surge from "../assets/logos/surge.png";
-import netlify from "../assets/logos/netlify.png";
-import github from "../assets/logos/github.png";
-import bootstrap from "../assets/logos/bootstrap.png";
-import es6 from "../assets/logos/es6.png";
-import api from "../assets/logos/api.png";
-import nextjs from "../assets/logos/nextjs.webp";
-import laravel from "../assets/logos/laravel.png";
-import php from "../assets/logos/php.png";
-import mysql from "../assets/logos/mysql.png";
-
+import mongoDB from "/logos/mongoDB.png";
+import reactJs from "/logos/reactJs.png";
+import expressJs from "/logos/expressJs.png";
+import jwt from "/logos/jwt.png";
+import firebase from "/logos/firebase.png";
+import materialUi from "/logos/materialUi.png";
+import tailwind from "/logos/tailwind.png";
+import nodeJs from "/logos/nodeJs.png";
+import vercel from "/logos/vercel.png";
+import html from "/logos/html.png";
+import css from "/logos/css.png";
+import javascript from "/logos/javascript.png";
+import surge from "/logos/surge.png";
+import netlify from "/logos/netlify.png";
+import github from "/logos/github.png";
+import bootstrap from "/logos/bootstrap.png";
+import es6 from "/logos/es6.png";
+import api from "/logos/api.png";
+import nextjs from "/logos/nextjs.webp";
+import laravel from "/logos/laravel.png";
+import php from "/logos/php.png";
+import mysql from "/logos/mysql.png";
+import typescript from "/logos/typescript.png";
 import { Tooltip } from "react-tooltip";
 
 const Skills = () => {
@@ -88,6 +88,13 @@ const Skills = () => {
           <div className="flex gap-5 md:gap-10 my-5 justify-center items-center flex-wrap">
             <img
               data-tooltip-id="skills"
+              data-tooltip-content="NextJs"
+              className="h-8 md:h-10"
+              src={nextjs}
+              alt=""
+            />
+            <img
+              data-tooltip-id="skills"
               data-tooltip-content="MongoDB"
               className="h-9 md:h-12"
               src={mongoDB}
@@ -146,9 +153,9 @@ const Skills = () => {
             />
             <img
               data-tooltip-id="skills"
-              data-tooltip-content="NextJs"
+              data-tooltip-content="Typescript"
               className="h-8 md:h-10"
-              src={nextjs}
+              src={typescript}
               alt=""
             />
             <img

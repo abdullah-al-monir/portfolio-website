@@ -8,7 +8,7 @@
       "Optimize performance and enhance user experience",
       "Fix issues in HTML, CSS, and JavaScript for better front-end performance",
       "Resolve bugs in React applications to ensure seamless interactivity",
-      "Debug and fix problems in PHP and Laravel projects forback-end functionality",
+      "Debug and fix problems in PHP and Laravel projects for back-end functionality",
       "Handle database-related bugs in MySQL to ensure data accuracy and efficiency",
       "Fix issues in Firebase integrations for reliable real-time updates",
       "Conduct thorough testing to prevent future issues and ensure stability"
@@ -43,6 +43,22 @@
       "Use Tailwind CSS for rapid UI development",
       "Implement Material Tailwind components for a modern look",
       "Provide ongoing maintenance and updates"
+    ]
+  },
+  {
+    "title": "CV/Resume Review & Writing",
+    "img": "/images/service4.png",
+    "details": [
+      "Create professional CVs and resumes tailored to specific job roles",
+      "Review and improve existing CVs for clarity and impact",
+      "Highlight key skills, achievements, and experience effectively",
+      "Assist in writing compelling cover letters",
+      "Provide guidance on job application email writing",
+      "Ensure formatting and design align with industry standards",
+      "Optimize content with relevant keywords for Applicant Tracking Systems (ATS)",
+      "Tailor CVs and resumes for specific industries and roles",
+      "Provide actionable feedback for improvement",
+      "Help craft personalized job application strategies"
     ]
   }
 ]

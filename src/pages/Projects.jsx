@@ -35,7 +35,7 @@ const Projects = () => {
             className="h-full rounded-2xl"
           >
             <div className="h-[280px] overflow-y-scroll  projectImage rounded-t-2xl">
-              <img className="imageHoverScroll" src={p.image} alt="" />
+              <img className="imageHoverScroll  w-full" src={p.image} alt="" />
             </div>
             <div>
               <div className="flex flex-col justify-center items-center px-5 py-10 bg-[#144182] rounded-b-2xl">

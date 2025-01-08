@@ -1,9 +1,22 @@
 [
   {
     "company": "Synchronise It",
+    "role": "Software Developer",
+    "startDate": "November 2024",
+    "endDate": "Present",
+    "responsibilities": [
+      "Developing and maintaining scalable web applications using modern frameworks.",
+      "Collaborating with cross-functional teams to design and implement new features.",
+      "Writing optimized, clean, and reusable code following industry best practices.",
+      "Identifying and fixing performance bottlenecks to enhance application speed.",
+      "Ensuring the delivery of high-quality software through rigorous testing and debugging."
+    ]
+  },
+  {
+    "company": "Synchronise It",
     "role": "Software Developer Trainee",
     "startDate": "March 2024",
-    "endDate": "Present",
+    "endDate": "October 2024",
     "responsibilities": [
       "Assisting in the development of web applications using modern technologies.",
       "Collaborating with senior developers to fix bugs and implement new features.",
@@ -14,7 +27,7 @@
   },
   {
     "company": "Self-Employed",
-    "role": "ICT and Math Teacher",
+    "role": "ICT & Math Teacher",
     "startDate": "February 2019",
     "endDate": "Present",
     "responsibilities": [
