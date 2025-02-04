@@ -59,7 +59,7 @@ const Projects = () => {
                       Live Site
                     </a>
                   </div>
-                  {/* <p className="hidden 2xl:block">|</p>
+                  <p className="hidden 2xl:block">|</p>
                   <div className="flex items-center justify-center gap-2 flex-start">
                     <img
                       className="w-7 2xl:hidden"
@@ -80,7 +80,7 @@ const Projects = () => {
                     <a href={p.back} target="_blank" rel="noopener noreferrer">
                       Back-End
                     </a>
-                  </div> */}
+                  </div>
                 </div>
                 <h2 className="text-white text-xl mb-5">Technologies</h2>
                 <div className="flex gap-5 justify-center items-center flex-wrap">
