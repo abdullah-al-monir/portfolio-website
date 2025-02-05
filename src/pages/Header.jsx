@@ -34,7 +34,7 @@ const Header = () => {
         </div>
         <div className="my-10 w-full mx-auto">
           <a
-            href="https://drive.google.com/uc?export=download&id=1NwCiZm7Ff4a7jSmyhJMf4DEzSi86PN4t"
+            href="https://drive.google.com/uc?export=download&id=1R9u4lEckZwEGAiMHmccmUpKFPWRUgb2r"
             download="Resume of Abdullah Al Monir.pdf"
           >
             <button
