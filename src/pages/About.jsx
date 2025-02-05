@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="container mx-auto p-5 md:p-10 lg:p-20">
       <Title text={"About Me"} />
-      <div className="flex flex-col md:flex-row items-center justify-center gap-7 md:gap-10 lg:gap-20  bg-cover bg-center px-5 md:px-10 lg:px-20 pt-5">
+      <div className="flex flex-col md:flex-row-reverse items-center justify-center gap-7 md:gap-10 lg:gap-20  bg-cover bg-center px-5 md:px-10 lg:px-20 pt-5">
         <div className="">
           <img
             style={{ backgroundImage: `url('${bg}')` }}
@@ -15,7 +15,7 @@ const About = () => {
           />
         </div>
         <div className="w-3/4 md:w-1/2 mb-10 lg:mb-0">
-          <p className="text-md  lg:text-2xl text-white lg:leading-relaxed">
+          <p className="text-md md:text-right lg:text-2xl text-white lg:leading-relaxed">
             I am working as a <strong className="text-[#88afdd]">Software Developer</strong> at Synchronise IT. Along with my
             core competencies in the MERN stack, I work closely with ReactJs, NextJs,
             Laravel, Inertia.js, and MySQL in my role. I have a strong desire to
