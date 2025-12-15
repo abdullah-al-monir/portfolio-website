@@ -18,12 +18,13 @@ const Contact = () => {
         text: "Please fill up all information!",
       });
     }
+    console.log(import.meta.env.VITE_EMAILJS_SERVICE_ID)
     emailjs
       .send(
-        "service_fqemrm5",
-        "template_ufl9j3p",
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         formData,
-        "Lkjv3B1wxqFYBLmCB"
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {

@@ -3,13 +3,13 @@
     "company": "Synchronise It",
     "role": "Software Developer",
     "startDate": "November 2024",
-    "endDate": "Present",
+    "endDate": "December 2025",
     "responsibilities": [
-      "Developing and maintaining scalable web applications using modern frameworks.",
-      "Collaborating with cross-functional teams to design and implement new features.",
-      "Writing optimized, clean, and reusable code following industry best practices.",
-      "Identifying and fixing performance bottlenecks to enhance application speed.",
-      "Ensuring the delivery of high-quality software through rigorous testing and debugging."
+      "Developed and maintained scalable web applications using Next.js and Laravel, utilizing Tailwind CSS for responsive, modern UI design.",
+      "Integrated secure third-party financial services, specifically implementing the Paymob payment gateway for seamless transaction processing.",
+      "Managed server infrastructure and deployment on Hostinger VPS (Debian OS), configuring Nginx as a reverse proxy and PM2 for process management.",
+      "Designed and optimized complex database schemas using MySQL to ensure data integrity and query performance.",
+      "Collaborated with cross-functional teams to deliver high-quality software, ensuring faultless user experiences through rigorous testing."
     ]
   },
   {
