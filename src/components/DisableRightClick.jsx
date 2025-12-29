@@ -1,17 +1,17 @@
-import { useEffect } from "react";
+// import { useEffect } from "react";
 
-const DisableRightClick = () => {
-  useEffect(() => {
-    const disableRightClick = (event) => {
-      event.preventDefault();
-    };
-    document.addEventListener("contextmenu", disableRightClick);
-    return () => {
-      document.removeEventListener("contextmenu", disableRightClick);
-    };
-  }, []);
+// const DisableRightClick = () => {
+//   useEffect(() => {
+//     const disableRightClick = (event) => {
+//       event.preventDefault();
+//     };
+//     document.addEventListener("contextmenu", disableRightClick);
+//     return () => {
+//       document.removeEventListener("contextmenu", disableRightClick);
+//     };
+//   }, []);
 
-  return null;
-};
+//   return null;
+// };
 
-export default DisableRightClick;
+// export default DisableRightClick;
