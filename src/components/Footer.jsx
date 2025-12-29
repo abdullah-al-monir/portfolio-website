@@ -15,7 +15,7 @@ const Footer = () => {
   const date = new Date();
   const presentYear = date.getFullYear();
   return (
-    <div className="">
+    <div className="pb-5">
       <div
         data-aos="fade-up"
         className="container px-6 pt-12 mx-auto text-white"

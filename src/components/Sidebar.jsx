@@ -53,21 +53,7 @@ const Sidebar = ({ onPress }) => {
                 )}
               </div>
             </a>
-            <a onClick={(e) => onPress(e)} href="#services">
-              <div
-                data-to-scrollspy-id="services"
-                className="section flex items-center gap-2 relative"
-                onMouseEnter={() => setIsServiceHovered(true)}
-                onMouseLeave={() => setIsServiceHovered(false)}
-              >
-                <FaServicestack className="text-2xl" />
-                {isServiceHovered && (
-                  <h2 className="absolute top-0 left-0 pl-[70px] text-right right-0 bottom-0 hidden md:flex items-center justify-center transition-opacity duration-300 opacity-100">
-                    Service
-                  </h2>
-                )}
-              </div>
-            </a>
+
             <a onClick={(e) => onPress(e)} href="#skills">
               <div
                 data-to-scrollspy-id="skills"
@@ -79,6 +65,22 @@ const Sidebar = ({ onPress }) => {
                 {isSkillsHovered && (
                   <h2 className="absolute top-0 left-0 pl-[60px] text-right right-0 bottom-0 hidden md:flex items-center justify-center transition-opacity duration-300 opacity-100">
                     Skills
+                  </h2>
+                )}
+              </div>
+            </a>
+            <a onClick={(e) => onPress(e)} href={"#projects"}>
+              <div
+                data-to-scrollspy-id="projects"
+                className="section  flex items-center gap-2 relative"
+                onMouseEnter={() => setIsProjectsHovered(true)}
+                onMouseLeave={() => setIsProjectsHovered(false)}
+              >
+                <GrProjects className="text-xl" />
+
+                {isProjectsHovered && (
+                  <h2 className="absolute top-0 left-0 pl-[75px] text-right right-0 bottom-0 hidden md:flex items-center justify-center transition-opacity duration-300 opacity-100">
+                    Projects
                   </h2>
                 )}
               </div>
@@ -98,18 +100,17 @@ const Sidebar = ({ onPress }) => {
                 )}
               </div>
             </a>
-            <a onClick={(e) => onPress(e)} href={"#projects"}>
+            <a onClick={(e) => onPress(e)} href="#services">
               <div
-                data-to-scrollspy-id="projects"
-                className="section  flex items-center gap-2 relative"
-                onMouseEnter={() => setIsProjectsHovered(true)}
-                onMouseLeave={() => setIsProjectsHovered(false)}
+                data-to-scrollspy-id="services"
+                className="section flex items-center gap-2 relative"
+                onMouseEnter={() => setIsServiceHovered(true)}
+                onMouseLeave={() => setIsServiceHovered(false)}
               >
-                <GrProjects className="text-xl" />
-
-                {isProjectsHovered && (
-                  <h2 className="absolute top-0 left-0 pl-[75px] text-right right-0 bottom-0 hidden md:flex items-center justify-center transition-opacity duration-300 opacity-100">
-                    Projects
+                <FaServicestack className="text-2xl" />
+                {isServiceHovered && (
+                  <h2 className="absolute top-0 left-0 pl-[70px] text-right right-0 bottom-0 hidden md:flex items-center justify-center transition-opacity duration-300 opacity-100">
+                    Service
                   </h2>
                 )}
               </div>

@@ -29,10 +29,10 @@ const Projects = () => {
 
   return (
     <div className="container mx-auto px-6 md:px-12 lg:px-20 py-24 min-h-screen">
+      <Title text={"Featured Projects"} />
       {/* Header Section */}
       <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
         <div className="max-w-xl">
-          <Title text={"Featured Projects"} />
           <p className="text-white/50 mt-4">
             A selection of my recent works, ranging from full-stack MERN applications to specialized frontend tools.
           </p>
