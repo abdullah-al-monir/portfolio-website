@@ -69,6 +69,18 @@ const About = () => {
                 <div className="text-xs text-white/60 uppercase tracking-wider">Stack Pro</div>
               </div>
             </div>
+
+            {/* Recommendation Letter Link */}
+            <div className="mt-8">
+              <a 
+                href="https://drive.google.com/file/d/1b0vDEEywGZRwr1_6Kt0e8n0_5UGcdGTq/view?usp=sharing" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-block w-full text-center py-3 px-6 rounded-xl border border-[#2EDEF5]/30 bg-[#2EDEF5]/10 text-[#2EDEF5] font-medium hover:bg-[#2EDEF5]/20 transition-all duration-300"
+              >
+                View Recommendation Letter from Synchronise IT
+              </a>
+            </div>
           </div>
         </motion.div>
       </div>
