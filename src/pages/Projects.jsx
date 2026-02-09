@@ -26,7 +26,9 @@ const Projects = () => {
       </div>
     );
   }
-
+  console.log(projects.map(r => {
+    return r;
+  }))
   return (
     <div className="container mx-auto px-6 md:px-12 lg:px-20 py-24 min-h-screen">
       <Title text={"Featured Projects"} />
@@ -128,6 +130,10 @@ const Projects = () => {
                   </div>
                 ))}
               </div>
+              {/* More details button */}
+              <Link to={`/project/${project?.id}`} className="inline-block mt-4 px-6 py-2 bg-[#2EDEF5]/20 text-[#2EDEF5] rounded-full font-medium hover:bg-[#2EDEF5]/40 transition-all">
+                View Details
+              </Link>
             </div>
           </motion.div>
         ))}

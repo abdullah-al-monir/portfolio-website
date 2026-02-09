@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 import About from "./About";
 import Contact from "./Contact";
 import Education from "./Education";
@@ -6,17 +6,31 @@ import Header from "./Header";
 import Projects from "./Projects";
 import Skills from "./Skills";
 import ScrollSpy from "react-ui-scrollspy";
-import Aos from "aos";
 import "aos/dist/aos.css";
 import Services from "./Services";
 import Experience from "./Experience";
+import Sidebar from "../components/Sidebar";
 const Home = () => {
-  useEffect(() => {
-    Aos.init();
-  }, []);
+  const onPress = (e) => {
+    e.preventDefault();
+    const target = window.document.getElementById(
+      e.currentTarget.href.split("#")[1]
+    );
+    if (target) {
+      var headerOffset = 20;
+      var elementPosition = target.getBoundingClientRect().top;
+      var offsetPosition = elementPosition - headerOffset;
+
+      window.scrollBy({
+        top: offsetPosition,
+        behavior: "smooth",
+      });
+    }
+  };
   const parentScrollContainerRef = useRef(null);
   return (
     <div ref={parentScrollContainerRef}>
+      <Sidebar onPress={onPress} />
       <ScrollSpy
         activeClass="active-section"
         offsetBottom={100}

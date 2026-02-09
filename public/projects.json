@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "name": "Neighbr",
     "title": "An artisan provider website",
     "image": "/neighbr.png",
@@ -11,12 +12,47 @@
       "/logos/nodeJs.png",
       "/logos/cloudinary.png"
     ],
-    "tech_names": ["Shadcn UI", "MongoDB", "Express.js", "Next.js", "Node.js", "Cloudinary"],
+    "tech_names": [
+      "Shadcn UI",
+      "MongoDB",
+      "Express.js",
+      "Next.js",
+      "Node.js",
+      "Cloudinary"
+    ],
     "live": "https://neighbr-six.vercel.app",
     "front": "https://github.com/abdullah-al-monir/neighbr-frontend",
-    "back": "https://github.com/abdullah-al-monir/neighbr-backend"
+    "back": "https://github.com/abdullah-al-monir/neighbr-backend",
+    "overview": "Neighbr is a hyper-local artisan marketplace platform connecting local craftspeople with nearby buyers. It focuses on geographical discovery using Division → District → City hierarchy instead of generic map pins, creating a community-first artisan service experience.",
+    "key_features": [
+      "Location-based artisan discovery (Division, District, City filtering)",
+      "Artisan portfolio & availability calendar management",
+      "Smart search & filtering by skill, rating, and location",
+      "Modal-based booking system with real-time availability",
+      "Reviews, ratings & badge-based trust system",
+      "Stripe-powered premium subscriptions for artisans",
+      "Earnings analytics dashboard with Recharts",
+      "Notification bell for booking & message updates",
+      "Interactive maps using React Leaflet + OpenStreetMap"
+    ],
+    "technologies": [
+      "Next.js 16 (App Router)",
+      "shadcn/ui",
+      "Tailwind CSS 4.0",
+      "React Hook Form + Zod",
+      "Lucide React",
+      "React Leaflet",
+      "Recharts",
+      "Stripe (React Stripe JS)",
+      "Server Components & Server Actions",
+      "MongoDB",
+      "Express.js",
+      "Node.js",
+      "Cloudinary"
+    ]
   },
   {
+    "id": 2,
     "name": "NexGen Diagnosis",
     "title": "A diagnostic center website",
     "image": "/nexgen.png",
@@ -28,12 +64,42 @@
       "/logos/nodeJs.png",
       "/logos/firebase.png"
     ],
-    "tech_names": ["Material UI", "MongoDB", "Express.js", "React.js", "Node.js", "Firebase"],
+    "tech_names": [
+      "Material UI",
+      "MongoDB",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "Firebase"
+    ],
     "live": "https://nexgen-diagnosia.web.app",
     "front": "https://github.com/abdullah-al-monir/nexgen-diagnosia-client",
-    "back": "https://github.com/abdullah-al-monir/nexgen-diagnosia-server"
+    "back": "https://github.com/abdullah-al-monir/nexgen-diagnosia-server",
+    "overview": "NexGen Diagnosia is a modern diagnostic center platform where users can browse tests, book appointments, make secure payments, and download test reports digitally.",
+    "key_features": [
+      "Homepage with dynamic hero banner, featured tests, offers & health insights",
+      "Test listing with date-based filtering & pagination",
+      "Test details + promo code support + Stripe payment integration",
+      "User dashboard: Profile, Upcoming Appointments, Reports download",
+      "Admin dashboard: Manage users, tests, banners, reservations & report upload",
+      "Revenue & test statistics with charts (Pie & Bar)",
+      "Appointment status management (Pending → Delivered)",
+      "JWT authentication & role-based access"
+    ],
+    "technologies": [
+      "React.js",
+      "Material UI",
+      "Firebase Authentication",
+      "MongoDB",
+      "Express.js",
+      "Node.js",
+      "JWT",
+      "Stripe.js",
+      "TanStack Query"
+    ]
   },
   {
+    "id": 3,
     "name": "Work Atlas",
     "title": "A job recruitment website",
     "image": "/workAtlas.png",
@@ -45,12 +111,42 @@
       "/logos/nodeJs.png",
       "/logos/firebase.png"
     ],
-    "tech_names": ["Tailwind CSS", "MongoDB", "Express.js", "React.js", "Node.js", "Firebase"],
+    "tech_names": [
+      "Tailwind CSS",
+      "MongoDB",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "Firebase"
+    ],
     "live": "https://work-atlas.web.app",
     "front": "https://github.com/abdullah-al-monir/work-atlas-client",
-    "back": "https://github.com/abdullah-al-monir/work-atlas-server"
+    "back": "https://github.com/abdullah-al-monir/work-atlas-server",
+    "overview": "Work Atlas is a job portal where users can browse job listings, apply for jobs, post new job openings, and manage their posted jobs.",
+    "key_features": [
+      "Job listing with category tabs & search",
+      "Job details page with apply modal (resume link)",
+      "Email notification on job application",
+      "Applied Jobs page with filtering",
+      "Post & manage your own jobs (edit/delete)",
+      "Google login integration",
+      "Resume generation support (react-to-pdf)",
+      "Private routes for authenticated features"
+    ],
+    "technologies": [
+      "React.js",
+      "Tailwind CSS",
+      "Firebase Authentication",
+      "MongoDB",
+      "Express.js",
+      "Node.js",
+      "JWT",
+      "React-to-PDF",
+      "EmailJS"
+    ]
   },
   {
+    "id": 4,
     "name": "Automotive Oasis",
     "title": "A car showroom website",
     "image": "/automotive.png",
@@ -62,12 +158,39 @@
       "/logos/nodeJs.png",
       "/logos/firebase.png"
     ],
-    "tech_names": ["Tailwind CSS", "MongoDB", "Express.js", "React.js", "Node.js", "Firebase"],
+    "tech_names": [
+      "Tailwind CSS",
+      "MongoDB",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "Firebase"
+    ],
     "live": "https://automotive-oasis.web.app",
     "front": "https://github.com/abdullah-al-monir/online-car-shop-client",
-    "back": "https://github.com/abdullah-al-monir/online-car-shop-server"
+    "back": "https://github.com/abdullah-al-monir/online-car-shop-server",
+    "overview": "Automotive Oasis is an online car showroom platform showcasing multiple brands with product listings, cart functionality, and user authentication.",
+    "key_features": [
+      "Brand-based product browsing",
+      "Auto-sliding banner & team slider",
+      "Add new cars/products (private)",
+      "Shopping cart with remove functionality",
+      "Google login & theme toggle",
+      "Private routes (Add Product, Cart)",
+      "Product details & update pages",
+      "Responsive design with profile dropdown"
+    ],
+    "technologies": [
+      "React.js",
+      "Tailwind CSS",
+      "Firebase Authentication",
+      "MongoDB",
+      "Express.js",
+      "Node.js"
+    ]
   },
   {
+    "id": 5,
     "name": "Task Sync Pro",
     "title": "A Task Management website",
     "image": "/task-sync-pro.png",
@@ -79,12 +202,37 @@
       "/logos/nodeJs.png",
       "/logos/firebase.png"
     ],
-    "tech_names": ["Tailwind CSS", "MongoDB", "Express.js", "React.js", "Node.js", "Firebase"],
+    "tech_names": [
+      "Tailwind CSS",
+      "MongoDB",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "Firebase"
+    ],
     "live": "https://task-sync-pro-401d7.web.app/",
     "front": "https://github.com/abdullah-al-monir/task-sync-pro-client",
-    "back": "https://github.com/abdullah-al-monir/task-sync-pro-server"
+    "back": "https://github.com/abdullah-al-monir/task-sync-pro-server",
+    "overview": "Task Sync Pro is a simple yet powerful task management application with drag-and-drop status updates and Google authentication.",
+    "key_features": [
+      "Drag & drop task status change (To Do → Ongoing → Completed)",
+      "Task creation from dashboard",
+      "Google login integration",
+      "Protected dashboard route",
+      "Clean and minimal UI",
+      "Real-time task synchronization"
+    ],
+    "technologies": [
+      "React.js",
+      "Tailwind CSS",
+      "Firebase Authentication",
+      "MongoDB",
+      "Express.js",
+      "Node.js"
+    ]
   },
   {
+    "id": 6,
     "name": "Phone Fusion",
     "title": "A Phone Shop website",
     "image": "/phone-fusion.png",
@@ -95,12 +243,42 @@
       "/logos/reactJs.png",
       "/logos/nodeJs.png"
     ],
-    "tech_names": ["Tailwind CSS", "MongoDB", "Express.js", "React.js", "Node.js"],
+    "tech_names": [
+      "Tailwind CSS",
+      "MongoDB",
+      "Express.js",
+      "React.js",
+      "Node.js"
+    ],
     "live": "https://phone-fusion-364.web.app",
     "front": "https://github.com/abdullah-al-monir/phone-fusion-client",
-    "back": "https://github.com/abdullah-al-monir/phone-fusion-server"
+    "back": "https://github.com/abdullah-al-monir/phone-fusion-server",
+    "overview": "Phone Fusion is a modern mobile phone e-commerce website with advanced filtering, search, and product browsing capabilities.",
+    "key_features": [
+      "Advanced product search (any field)",
+      "Filter by price range, brand, type",
+      "Sort products by price",
+      "Latest products showcase on homepage",
+      "Swiper slider for banners",
+      "Loading spinners & smooth UX",
+      "About Us & Contact pages"
+    ],
+    "technologies": [
+      "React.js",
+      "React Router",
+      "Tailwind CSS",
+      "Swiper.js",
+      "React Spinners",
+      "Firebase",
+      "MongoDB",
+      "Node.js",
+      "Express.js",
+      "TanStack Query",
+      "Vercel"
+    ]
   },
   {
+    "id": 7,
     "name": "SPORTACULAR360",
     "title": "A sports events website",
     "image": "/sportacular360.png",
@@ -111,11 +289,33 @@
       "/logos/reactJs.png",
       "/logos/firebase.png"
     ],
-    "tech_names": ["HTML5", "CSS3", "Tailwind CSS", "React.js", "Firebase"],
+    "tech_names": [
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "React.js",
+      "Firebase"
+    ],
     "live": "https://sportacular360.web.app",
-    "front": "https://github.com/abdullah-al-monir/sports-events-auth"
+    "front": "https://github.com/abdullah-al-monir/sports-events-auth",
+    "overview": "SPORTACULAR360 is a sports event hosting platform featuring events, blogs, membership plans, and partner showcases with authentication.",
+    "key_features": [
+      "Private routes for Blog & Events",
+      "Auto-sliding banner & partners slider",
+      "Featured blogs & full blog access (private)",
+      "Membership plans with application form",
+      "Google & GitHub login support",
+      "User profile dropdown with sign out",
+      "Services with private details pages"
+    ],
+    "technologies": [
+      "React.js",
+      "Tailwind CSS",
+      "Firebase Authentication (Google & GitHub)"
+    ]
   },
   {
+    "id": 7,
     "name": "Winter Sale",
     "title": "An online shop",
     "image": "/wintersale.png",
@@ -126,11 +326,31 @@
       "/logos/es6.png",
       "/logos/javascript.png"
     ],
-    "tech_names": ["HTML5", "CSS3", "Tailwind CSS", "ES6", "JavaScript"],
+    "tech_names": [
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "ES6",
+      "JavaScript"
+    ],
     "live": "https://abdullah-al-monir.github.io/e-shop",
-    "front": "https://github.com/abdullah-al-monir/e-shop"
+    "front": "https://github.com/abdullah-al-monir/e-shop",
+    "overview": "Winter Sale is a simple static e-commerce shop with cart functionality and discount coupon support.",
+    "key_features": [
+      "Add multiple items to cart",
+      "Coupon code support (SELL200 → 20% off)",
+      "Real-time cart total calculation",
+      "Clean and minimal product grid"
+    ],
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "JavaScript (ES6)"
+    ]
   },
   {
+    "id": 8,
     "name": "Text Editor Pro",
     "title": "A text editing tool",
     "image": "/textEditorPro.png",
@@ -141,11 +361,31 @@
       "/logos/es6.png",
       "/logos/javascript.png"
     ],
-    "tech_names": ["HTML5", "CSS3", "Tailwind CSS", "ES6", "JavaScript"],
+    "tech_names": [
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "ES6",
+      "JavaScript"
+    ],
     "live": "https://abdullah-al-monir.github.io/text-editor",
-    "front": "https://github.com/abdullah-al-monir/sports-events-auth"
+    "front": "https://github.com/abdullah-al-monir/sports-events-auth",
+    "overview": "Text Editor Pro is a lightweight, browser-based rich text editor with formatting options.",
+    "key_features": [
+      "Bold, italic, underline formatting",
+      "Text alignment controls",
+      "Font size adjustment",
+      "Real-time preview"
+    ],
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "JavaScript (ES6)"
+    ]
   },
   {
+    "id": 9,
     "name": "BMI Calculator",
     "title": "A bmi calculating tool",
     "image": "/bmiCalculator.png",
@@ -156,8 +396,27 @@
       "/logos/es6.png",
       "/logos/javascript.png"
     ],
-    "tech_names": ["HTML5", "CSS3", "Tailwind CSS", "ES6", "JavaScript"],
+    "tech_names": [
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "ES6",
+      "JavaScript"
+    ],
     "live": "https://abdullah-al-monir.github.io/bmi-calculator",
-    "front": "https://github.com/abdullah-al-monir/bmi-calculator"
+    "front": "https://github.com/abdullah-al-monir/bmi-calculator",
+    "overview": "BMI Calculator is a health tool that calculates Body Mass Index using both Metric and Imperial units with health advice.",
+    "key_features": [
+      "Support for Metric (kg/cm) & Imperial (lbs/inch) systems",
+      "Instant BMI calculation",
+      "Body condition classification",
+      "Health advice based on BMI range"
+    ],
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "JavaScript (ES6)"
+    ]
   }
 ]

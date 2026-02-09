@@ -5,7 +5,6 @@ import { useEffect, useState } from "react";
 import { SyncLoader } from "react-spinners";
 import { FaExternalLinkAlt, FaGithub, FaArrowLeft, FaCode } from "react-icons/fa";
 import { Tooltip } from "react-tooltip";
-
 const AllProjects = () => {
   const [projects, setProjects] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -20,7 +19,6 @@ const AllProjects = () => {
     // Scroll to top when entering this page
     window.scrollTo(0, 0);
   }, []);
-
   if (loading) {
     return (
       <div className="flex justify-center items-center h-screen bg-[#040615]">
@@ -30,7 +28,7 @@ const AllProjects = () => {
   }
 
   return (
-    <div className="container mx-auto px-6 md:px-12 lg:px-20 py-24 min-h-screen">
+    <div className="container mx-auto px-6 md:px-12 lg:px-20 py-16 min-h-screen">
       {/* Header */}
       <Title text={"All Projects"} />
       <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
@@ -129,6 +127,10 @@ const AllProjects = () => {
                   </div>
                 ))}
               </div>
+              {/* More details button */}
+              <Link to={`/project/${project.id}`} className="inline-block mt-4 px-6 py-2 bg-[#2EDEF5]/20 text-[#2EDEF5] rounded-full font-medium hover:bg-[#2EDEF5]/40 transition-all">
+                View Details
+              </Link>
             </div>
           </motion.div>
         ))}
