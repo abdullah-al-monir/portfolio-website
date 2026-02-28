@@ -107,6 +107,7 @@ const Header = () => {
           <Typewriter
             options={{
               strings: [
+                "A Full Stack Developer",
                 "A Software Developer",
                 "A MERN Stack Developer",
                 "A Frontend Developer",

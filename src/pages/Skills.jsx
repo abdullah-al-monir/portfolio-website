@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { Tooltip } from "react-tooltip";
 import Title from "../components/Title";
 
-// Icon URLs (kept your sources)
 const html = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg";
 const css = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg";
 const javascript = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg";
@@ -20,6 +19,7 @@ const nodeJs = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs
 const expressJs = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg";
 const php = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg";
 const laravel = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg";
+const nestJs = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg";
 
 const mongoDB = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg";
 const mysql = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg";
@@ -34,6 +34,17 @@ const c = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-origina
 const cpp = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg";
 const python = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg";
 
+const sass = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg";
+const postgresql = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg";
+const prisma = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg";
+const docker = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg";
+const stripe = "https://avatars.githubusercontent.com/u/856813?s=200&v=4";
+const cloudinary = "https://avatars.githubusercontent.com/u/1460763?s=200&v=4";
+const zustand = "https://user-images.githubusercontent.com/958486/218346783-72be5ae3-b953-4dd7-b239-788a882fdad6.svg";
+const tanstack = "https://tanstack.com/favicon.png";
+const zod = "https://avatars.githubusercontent.com/u/89329196?s=200&v=4";
+const clickhouse = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/clickhouse/clickhouse-original.svg";
+const nodeMailer = "https://raw.githubusercontent.com/nodemailer/nodemailer/master/assets/nm_logo_200x136.png";
 const Skills = () => {
   const categories = [
     {
@@ -66,6 +77,7 @@ const Skills = () => {
         { name: "Material UI", img: materialUi },
         { name: "Shadcn/ui", img: shadcn },
         { name: "Figma", img: figma },
+        { name: "SASS", img: sass },
       ],
     },
     {
@@ -76,6 +88,7 @@ const Skills = () => {
         { name: "Express", img: expressJs },
         { name: "PHP", img: php },
         { name: "Laravel", img: laravel },
+        { name: "NestJS", img: nestJs },
       ],
     },
     {
@@ -85,6 +98,9 @@ const Skills = () => {
         { name: "MongoDB", img: mongoDB },
         { name: "MySQL", img: mysql },
         { name: "Firebase", img: firebase },
+        { name: "PostgreSQL", img: postgresql },
+        { name: "ClickHouse", img: clickhouse },
+        { name: "Prisma", img: prisma },
       ],
     },
     {
@@ -95,6 +111,19 @@ const Skills = () => {
         { name: "Netlify", img: netlify },
         { name: "GitHub", img: github },
         { name: "Nginx", img: nginx },
+        { name: "Docker", img: docker },
+      ],
+    },
+    {
+      title: "Libraries & Integrations",
+      color: "text-[#2EDEF5]",
+      skills: [
+        { name: "Zustand", img: zustand },
+        { name: "TanStack Query", img: tanstack },
+        { name: "Zod", img: zod },
+        { name: "Stripe", img: stripe },
+        { name: "Cloudinary", img: cloudinary },
+        { name: "NodeMailer", img: nodeMailer },
       ],
     },
   ];

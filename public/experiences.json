@@ -1,7 +1,24 @@
 [
   {
+    "company": "Everything Green Limited",
+    "role": "Full Stack Developer",
+    "logo": "/images/everything-green-limited.ico",
+    "startDate": "February 2026",
+    "endDate": "Present",
+    "responsibilities": [
+      "Developed and maintained scalable full-stack web applications using Next.js and Express.js, with responsive UI built using Tailwind CSS, Bootstrap, and SASS.",
+      "Managed application state and server-side data synchronization using Zustand and TanStack Query for efficient, reactive user experiences.",
+      "Integrated third-party services including Stripe for payment processing, Cloudinary for media management, and NodeMailer for transactional email delivery.",
+      "Designed and managed relational and non-relational database schemas using PostgreSQL and Mongoose (MongoDB), with Prisma as the ORM for type-safe database interactions.",
+      "Leveraged ClickHouse for high-performance analytical queries and large-scale data processing.",
+      "Implemented robust data validation and API security using Zod and CORS, ensuring reliable and secure client-server communication.",
+      "Containerized applications using Docker for consistent development, testing, and production environments."
+    ]
+  },
+  {
     "company": "Synchronise It",
     "role": "Software Developer",
+    "logo": "/images/synchronise-it.png",
     "startDate": "November 2024",
     "endDate": "December 2025",
     "responsibilities": [
@@ -15,6 +32,7 @@
   {
     "company": "Synchronise It",
     "role": "Software Developer Trainee",
+    "logo": "/images/synchronise-it.png",
     "startDate": "March 2024",
     "endDate": "October 2024",
     "responsibilities": [

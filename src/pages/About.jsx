@@ -71,7 +71,7 @@ const About = () => {
             </div>
 
             {/* Recommendation Letter Link */}
-            <div className="mt-8">
+            {/* <div className="mt-8">
               <a 
                 href="https://drive.google.com/file/d/1b0vDEEywGZRwr1_6Kt0e8n0_5UGcdGTq/view?usp=sharing" 
                 target="_blank" 
@@ -80,7 +80,7 @@ const About = () => {
               >
                 View Recommendation Letter from Synchronise IT
               </a>
-            </div>
+            </div> */}
           </div>
         </motion.div>
       </div>

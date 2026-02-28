@@ -53,7 +53,7 @@ const Experience = () => {
                 <div className="absolute -inset-2 bg-gradient-to-r from-[#2EDEF5]/10 to-transparent rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
                 <div className="relative bg-[#0a0f24]/60 backdrop-blur-md border border-white/5 p-6 md:p-10 rounded-3xl hover:border-[#2EDEF5]/30 transition-all duration-300">
-                  
+
                   {/* Top Row: Title and Dates */}
                   <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
                     <div>
@@ -61,15 +61,22 @@ const Experience = () => {
                         {exp.role}
                       </h3>
                       <div className="flex items-center gap-2 mt-1">
+                        {
+                          exp?.logo ? (
+                            <img src={exp.logo} alt={`${exp.company} logo`} className="w-6 h-6 object-contain" />
+                          ) : (
+                            <FaBriefcase className="text-[#2EDEF5]" />
+                          )
+                        }
                         <span className="text-lg text-[#88afdd] font-medium">{exp.company}</span>
                         {exp.companyLink && (
-                           <a href={exp.companyLink} target="_blank" className="text-white/30 hover:text-[#2EDEF5]">
-                             <FaExternalLinkAlt size={12} />
-                           </a>
+                          <a href={exp.companyLink} target="_blank" className="text-white/30 hover:text-[#2EDEF5]">
+                            <FaExternalLinkAlt size={12} />
+                          </a>
                         )}
                       </div>
                     </div>
-                    
+
                     <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#144182]/30 rounded-full border border-[#2EDEF5]/20 text-[#2EDEF5] text-sm">
                       <FaCalendarAlt className="text-xs" />
                       <span>{exp.startDate} — {exp.endDate}</span>
