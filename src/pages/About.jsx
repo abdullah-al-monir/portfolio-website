@@ -4,7 +4,7 @@ import image from "../assets/monir.jpg";
 
 const About = () => {
   return (
-    <div className="container mx-auto p-5 md:p-10 lg:p-20 min-h-screen overflow-hidden">
+    <div className="container mx-auto p-5 md:p-10 lg:p-20 min-h-screen overflow-x-hidden w-full">
       <Title text={"About Me"} />
 
       <div className="flex flex-col md:flex-row-reverse items-center justify-center gap-10 lg:gap-20">
@@ -24,7 +24,7 @@ const About = () => {
               className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105"
               src={image}
               alt="Abdullah Al Monir"
-              style={{ maxHeight: "500px" }} 
+              style={{ maxHeight: "500px" }}
             />
             {/* Hover Overlay */}
             <div className="absolute inset-0 bg-gradient-to-t from-[#144182]/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />

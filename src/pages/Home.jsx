@@ -37,28 +37,28 @@ const Home = () => {
         scrollThrottle={80}
         useBoxMethod
       >
-        <div id="header" className="">
+        <div id="header" className="ml-5 md:ml-0">
           <Header />
         </div>
-        <div id="about" className="mb-16 md:mb-20">
+        <div id="about" className="ml-8 md:ml-0 mb-16 md:mb-20">
           <About />
         </div>
-        <div id="skills" className="mb-16 md:mb-20">
+        <div id="skills" className="ml-8 md:ml-0 mb-16 md:mb-20">
           <Skills />
         </div>
-        <div id="projects" className="pt-5 mb-16 md:mb-20">
+        <div id="projects" className="ml-7 md:ml-0 pt-5 mb-16 md:mb-20">
           <Projects />
         </div>
-        <div id="experience" className="mb-16 md:mb-20">
+        <div id="experience" className="ml-8 md:ml-0 mb-16 md:mb-20">
           <Experience />
         </div>
-        <div id="services" className="mb-16 md:mb-20">
+        <div id="services" className="ml-7 md:ml-0 mb-16 md:mb-20">
           <Services />
         </div>
-        <div id="education" className="mb-16 md:mb-20">
+        <div id="education" className="ml-7 md:ml-0 mb-16 md:mb-20">
           <Education />
         </div>
-        <div id="contact" className="h-[750px] mb-16 md:mb-20">
+        <div id="contact" className="ml-8 md:ml-0 h-[750px] mb-16 md:mb-20">
           <Contact />
         </div>
       </ScrollSpy>

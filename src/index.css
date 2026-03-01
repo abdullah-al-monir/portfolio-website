@@ -5,6 +5,7 @@
 
 body {
   background-color: #040615;
+  overflow-x: hidden;
 }
 
 .titillium {
@@ -45,7 +46,7 @@ body {
 }
 
 .imageHoverScroll:hover {
-  animation: scrollAnimation 15s linear infinite; 
+  animation: scrollAnimation 15s linear infinite;
 }
 
 @keyframes scrollAnimation {
