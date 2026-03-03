@@ -1,17 +1,28 @@
-// import { useEffect } from "react";
+import { useEffect } from "react";
 
-// const DisableRightClick = () => {
-//   useEffect(() => {
-//     const disableRightClick = (event) => {
-//       event.preventDefault();
-//     };
-//     document.addEventListener("contextmenu", disableRightClick);
-//     return () => {
-//       document.removeEventListener("contextmenu", disableRightClick);
-//     };
-//   }, []);
+const DisableRightClick = () => {
+  useEffect(() => {
+    const blockKeys = (e) => {
+      if (
+        e.key === "F12" ||
+        (e.ctrlKey && e.shiftKey && e.key === "I") ||
+        (e.ctrlKey && e.shiftKey && e.key === "J") ||
+        (e.ctrlKey && e.key === "U")
+      ) {
+        e.preventDefault();
+      }
+    };
 
-//   return null;
-// };
+    document.addEventListener("contextmenu", (e) => e.preventDefault());
+    document.addEventListener("keydown", blockKeys);
 
-// export default DisableRightClick;
+    return () => {
+      document.removeEventListener("contextmenu", (e) => e.preventDefault());
+      document.removeEventListener("keydown", blockKeys);
+    };
+  }, []);
+
+  return null;
+};
+
+export default DisableRightClick;
